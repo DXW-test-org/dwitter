@@ -1,5 +1,5 @@
 ---
-name: TestOrg-1/Rails-Sample-App-6th-Ed-Scanner-Integration
+name: TestOrg-1/dwitter
 packages:
 - path: app/controllers
 - path: app/models
