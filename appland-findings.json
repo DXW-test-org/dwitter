@@ -1,0 +1,3539 @@
+{
+  "configuration": {
+    "checks": [
+      {
+        "rule": "authzBeforeAuthn"
+      },
+      {
+        "rule": "circularDependency"
+      },
+      {
+        "rule": "deserializationOfUntrustedData"
+      },
+      {
+        "rule": "execOfUntrustedCommand"
+      },
+      {
+        "rule": "http500"
+      },
+      {
+        "rule": "logoutWithoutSessionReset"
+      },
+      {
+        "rule": "missingContentType"
+      },
+      {
+        "rule": "nPlusOneQuery"
+      },
+      {
+        "rule": "queryFromView"
+      },
+      {
+        "rule": "secretInLog"
+      },
+      {
+        "rule": "tooManyJoins"
+      },
+      {
+        "rule": "tooManyUpdates"
+      },
+      {
+        "rule": "updateInGetRequest"
+      }
+    ]
+  },
+  "appMapMetadata": {
+    "tmp/appmap/minitest/Following_followers_page.appmap.json": {
+      "name": "Following followers page",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/following_test.rb:20",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Following_following_page.appmap.json": {
+      "name": "Following following page",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/following_test.rb:11",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Following_should_follow_a_user_the_standard_way.appmap.json": {
+      "name": "Following should follow a user the standard way",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/following_test.rb:29",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Following_should_follow_a_user_with_Ajax.appmap.json": {
+      "name": "Following should follow a user with Ajax",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/following_test.rb:35",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Following_should_unfollow_a_user_with_Ajax.appmap.json": {
+      "name": "Following should unfollow a user with Ajax",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/following_test.rb:49",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Following_should_unfollow_a_user_the_standard_way.appmap.json": {
+      "name": "Following should unfollow a user the standard way",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/following_test.rb:41",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Micropost_content_should_be_at_most_140_characters.appmap.json": {
+      "name": "Micropost content should be at most 140 characters",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/micropost_test.rb:24",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Micropost_content_should_be_present.appmap.json": {
+      "name": "Micropost content should be present",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/micropost_test.rb:19",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Micropost_should_be_valid.appmap.json": {
+      "name": "Micropost should be valid",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/micropost_test.rb:10",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Micropost_order_should_be_most_recent_first.appmap.json": {
+      "name": "Micropost order should be most recent first",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/micropost_test.rb:29",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Micropost_user_id_should_be_present.appmap.json": {
+      "name": "Micropost user id should be present",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/micropost_test.rb:14",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Microposts_controller_should_redirect_create_when_not_logged_in.appmap.json": {
+      "name": "Microposts_controller should redirect create when not logged in",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/microposts_controller_test.rb:9",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Microposts_controller_should_redirect_destroy_for_wrong_micropost.appmap.json": {
+      "name": "Microposts_controller should redirect destroy for wrong micropost",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/microposts_controller_test.rb:23",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Microposts_controller_should_redirect_destroy_when_not_logged_in.appmap.json": {
+      "name": "Microposts_controller should redirect destroy when not logged in",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/microposts_controller_test.rb:16",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Password_resets_password_resets.appmap.json": {
+      "name": "Password_resets password resets",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/password_resets_test.rb:10",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json": {
+      "name": "Microposts_interface micropost interface",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/microposts_interface_test.rb:9",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Relationship_should_require_a_followed_id.appmap.json": {
+      "name": "Relationship should require a followed id",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/relationship_test.rb:19",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Relationship_should_be_valid.appmap.json": {
+      "name": "Relationship should be valid",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/relationship_test.rb:10",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Relationship_should_require_a_follower_id.appmap.json": {
+      "name": "Relationship should require a follower id",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/relationship_test.rb:14",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Relationships_controller_create_should_require_logged-in_user.appmap.json": {
+      "name": "Relationships_controller create should require logged-in user",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/relationships_controller_test.rb:5",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Relationships_controller_destroy_should_require_logged-in_user.appmap.json": {
+      "name": "Relationships_controller destroy should require logged-in user",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/relationships_controller_test.rb:12",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Sessions_controller_should_get_new.appmap.json": {
+      "name": "Sessions_controller should get new",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/sessions_controller_test.rb:5",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Sessions_helper_current_user_returns_nil_when_remember_digest_is_wrong.appmap.json": {
+      "name": "Sessions_helper current user returns nil when remember digest is wrong",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/helpers/sessions_helper_test.rb:15",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Sessions_helper_current_user_returns_right_user_when_session_is_nil.appmap.json": {
+      "name": "Sessions_helper current user returns right user when session is nil",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/helpers/sessions_helper_test.rb:10",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Site_layout_layout_links.appmap.json": {
+      "name": "Site_layout layout links",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/site_layout_test.rb:5",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Static_pages_controller_should_get_about.appmap.json": {
+      "name": "Static_pages_controller should get about",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/static_pages_controller_test.rb:17",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Static_pages_controller_should_get_help.appmap.json": {
+      "name": "Static_pages_controller should get help",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/static_pages_controller_test.rb:11",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Static_pages_controller_should_get_contact.appmap.json": {
+      "name": "Static_pages_controller should get contact",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/static_pages_controller_test.rb:23",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Static_pages_controller_should_get_home.appmap.json": {
+      "name": "Static_pages_controller should get home",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/static_pages_controller_test.rb:5",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_associated_microposts_should_be_destroyed.appmap.json": {
+      "name": "User associated microposts should be destroyed",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/user_test.rb:72",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_authenticated_should_return_false_for_a_user_with_nil_digest.appmap.json": {
+      "name": "User authenticated? should return false for a user with nil digest",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/user_test.rb:68",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_email_addresses_should_be_unique.appmap.json": {
+      "name": "User email addresses should be unique",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/user_test.rb:52",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_email_should_be_present.appmap.json": {
+      "name": "User email should be present",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/user_test.rb:19",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_email_should_not_be_too_long.appmap.json": {
+      "name": "User email should not be too long",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/user_test.rb:29",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_email_validation_should_accept_valid_addresses.appmap.json": {
+      "name": "User email validation should accept valid addresses",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/user_test.rb:34",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_email_validation_should_reject_invalid_addresses.appmap.json": {
+      "name": "User email validation should reject invalid addresses",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/user_test.rb:43",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_mailer_account_activation.appmap.json": {
+      "name": "User_mailer account activation",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/mailers/user_mailer_test.rb:5",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_feed_should_have_the_right_posts.appmap.json": {
+      "name": "User feed should have the right posts",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/user_test.rb:94",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_name_should_be_present.appmap.json": {
+      "name": "User name should be present",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/user_test.rb:14",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_mailer_password_reset.appmap.json": {
+      "name": "User_mailer password reset",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/mailers/user_mailer_test.rb:17",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_name_should_not_be_too_long.appmap.json": {
+      "name": "User name should not be too long",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/user_test.rb:24",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_password_should_be_present_nonblank.appmap.json": {
+      "name": "User password should be present (nonblank)",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/user_test.rb:58",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_should_be_valid.appmap.json": {
+      "name": "User should be valid",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/user_test.rb:10",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_password_should_have_a_minimum_length.appmap.json": {
+      "name": "User password should have a minimum length",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/user_test.rb:63",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/User_should_follow_and_unfollow_a_user.appmap.json": {
+      "name": "User should follow and unfollow a user",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/models/user_test.rb:80",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_controller_should_get_new.appmap.json": {
+      "name": "Users_controller should get new",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/users_controller_test.rb:10",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_controller_should_redirect_destroy_when_logged_in_as_a_non-admin.appmap.json": {
+      "name": "Users_controller should redirect destroy when logged in as a non-admin",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/users_controller_test.rb:55",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_controller_should_redirect_destroy_when_not_logged_in.appmap.json": {
+      "name": "Users_controller should redirect destroy when not logged in",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/users_controller_test.rb:48",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_controller_should_redirect_edit_when_not_logged_in.appmap.json": {
+      "name": "Users_controller should redirect edit when not logged in",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/users_controller_test.rb:20",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_controller_should_redirect_edit_when_logged_in_as_wrong_user.appmap.json": {
+      "name": "Users_controller should redirect edit when logged in as wrong user",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/users_controller_test.rb:33",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_controller_should_redirect_followers_when_not_logged_in.appmap.json": {
+      "name": "Users_controller should redirect followers when not logged in",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/users_controller_test.rb:68",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_controller_should_redirect_following_when_not_logged_in.appmap.json": {
+      "name": "Users_controller should redirect following when not logged in",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/users_controller_test.rb:63",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_controller_should_redirect_update_when_logged_in_as_wrong_user.appmap.json": {
+      "name": "Users_controller should redirect update when logged in as wrong user",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/users_controller_test.rb:40",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_controller_should_redirect_index_when_not_logged_in.appmap.json": {
+      "name": "Users_controller should redirect index when not logged in",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/users_controller_test.rb:15",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_controller_should_redirect_update_when_not_logged_in.appmap.json": {
+      "name": "Users_controller should redirect update when not logged in",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/controllers/users_controller_test.rb:26",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_edit_successful_edit_with_friendly_forwarding.appmap.json": {
+      "name": "Users_edit successful edit with friendly forwarding",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/users_edit_test.rb:21",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_edit_unsuccessful_edit.appmap.json": {
+      "name": "Users_edit unsuccessful edit",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/users_edit_test.rb:9",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_index_index_as_admin_including_pagination_and_delete_links.appmap.json": {
+      "name": "Users_index index as admin including pagination and delete links",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/users_index_test.rb:10",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_login_login_with_remembering.appmap.json": {
+      "name": "Users_login login with remembering",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/users_login_test.rb:43",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_index_index_as_non-admin.appmap.json": {
+      "name": "Users_index index as non-admin",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/users_index_test.rb:27",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_login_login_with_valid_email_invalid_password.appmap.json": {
+      "name": "Users_login login with valid email/invalid password",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/users_login_test.rb:9",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_login_login_with_valid_information_followed_by_logout.appmap.json": {
+      "name": "Users_login login with valid information followed by logout",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/users_login_test.rb:21",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_login_login_without_remembering.appmap.json": {
+      "name": "Users_login login without remembering",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/users_login_test.rb:48",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_profile_profile_display.appmap.json": {
+      "name": "Users_profile profile display",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/users_profile_test.rb:10",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_signup_invalid_signup_information.appmap.json": {
+      "name": "Users_signup invalid signup information",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/users_signup_test.rb:9",
+      "test_status": "succeeded"
+    },
+    "tmp/appmap/minitest/Users_signup_valid_signup_information_with_account_activation.appmap.json": {
+      "name": "Users_signup valid signup information with account activation",
+      "source_location": "/Users/danwarner/Documents/PROJECTS/sample_projects_scanner/sample_app_6th_ed/test/integration/users_signup_test.rb:22",
+      "test_status": "succeeded"
+    }
+  },
+  "findings": [
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_followers_page.appmap.json",
+      "checkId": "n-plus-one-query",
+      "ruleId": "n-plus-one-query",
+      "ruleTitle": "N plus 1 SQL query",
+      "event": {
+        "id": 182,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "3f613b50dced1e74470e192f080e31374e00520c812945de867da4fcd8e09c65",
+      "stack": [
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/activesupport-6.1.4.6/lib/active_support/callbacks.rb:511",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/followers",
+          "normalized_path_info": "/users/{id}/followers",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=7nff6w9TxwX8IVLigK8EtEnpsR995Fre6Zi39pazdhNWe50Pxxd0oJW23DJV%2B4kuFCHFqS4Xf5Y5xKCnK1eyJhy6RDaMAQmWJxOMOHhwhl2%2B8amOq2coiZLbnxWKYw2%2FDjM5aZwG8bC56DhfDk9JVzEMSls9pKzXDSR9vIo0giBQq5lHnprB%2BOgrEqHjpju7y8tU2StmS6cJfZfDeJNNjKmjHtUa1UWHeqyEac2YJ%2BhOphsUNVd0XWblzTqlmc2rHQnuE%2BewCGa5LBgW0bmbhDPsWTSNj6udMHNYPI4fOe5mhUllhXvS3SwM1%2F2rLQOUziRDg%2Fg9j6fZcXUrcLVPgfYUgN1dtxxqfeyZhBGjQQ%3D%3D--nulWTGxAilaNPOuC--k4CUq93I2NEBZZEv%2BpjfYw%3D%3D; remember_token=y5wmSLijl97gI6BnRvw9yg; user_id=EGpnZA%2B6Zl%2F0qq5JfaAimQuOt%2BP6DLz3jwU7YJjCCP4%2FDTYmeabQpjuHGEg2fZIvjeBBpC3eUv6oryxdC0lLWW4ewxiUhu0%3D--enE8VJQrR7fNih%2Bv--EnGH06%2Frv319tu8yBNM6vQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "9 occurrences of SQL: SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+      "groupMessage": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+      "occurranceCount": 9,
+      "relatedEvents": [
+        {
+          "id": 182,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 192,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 249,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 259,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 269,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 279,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 310,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 320,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 330,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_followers_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 211,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT COUNT(*) FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "ff03c1e82e612f0fc833985ece49e23d48bfe467c4f814459f3d4b3761022578",
+      "stack": [
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:58",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/followers",
+          "normalized_path_info": "/users/{id}/followers",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=7nff6w9TxwX8IVLigK8EtEnpsR995Fre6Zi39pazdhNWe50Pxxd0oJW23DJV%2B4kuFCHFqS4Xf5Y5xKCnK1eyJhy6RDaMAQmWJxOMOHhwhl2%2B8amOq2coiZLbnxWKYw2%2FDjM5aZwG8bC56DhfDk9JVzEMSls9pKzXDSR9vIo0giBQq5lHnprB%2BOgrEqHjpju7y8tU2StmS6cJfZfDeJNNjKmjHtUa1UWHeqyEac2YJ%2BhOphsUNVd0XWblzTqlmc2rHQnuE%2BewCGa5LBgW0bmbhDPsWTSNj6udMHNYPI4fOe5mhUllhXvS3SwM1%2F2rLQOUziRDg%2Fg9j6fZcXUrcLVPgfYUgN1dtxxqfeyZhBGjQQ%3D%3D--nulWTGxAilaNPOuC--k4CUq93I2NEBZZEv%2BpjfYw%3D%3D; remember_token=y5wmSLijl97gI6BnRvw9yg; user_id=EGpnZA%2B6Zl%2F0qq5JfaAimQuOt%2BP6DLz3jwU7YJjCCP4%2FDTYmeabQpjuHGEg2fZIvjeBBpC3eUv6oryxdC0lLWW4ewxiUhu0%3D--enE8VJQrR7fNih%2Bv--EnGH06%2Frv319tu8yBNM6vQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 211,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT COUNT(*) FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 194,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users_show_follow_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show_follow.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 122680,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a347d5030>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_followers_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 218,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "734ebd612781f7fec79583abf05976afacfb4ce0bc501d9a1401e842a7f7f5aa",
+      "stack": [
+        "app/views/shared/_stats.html.erb",
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:58",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/followers",
+          "normalized_path_info": "/users/{id}/followers",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=7nff6w9TxwX8IVLigK8EtEnpsR995Fre6Zi39pazdhNWe50Pxxd0oJW23DJV%2B4kuFCHFqS4Xf5Y5xKCnK1eyJhy6RDaMAQmWJxOMOHhwhl2%2B8amOq2coiZLbnxWKYw2%2FDjM5aZwG8bC56DhfDk9JVzEMSls9pKzXDSR9vIo0giBQq5lHnprB%2BOgrEqHjpju7y8tU2StmS6cJfZfDeJNNjKmjHtUa1UWHeqyEac2YJ%2BhOphsUNVd0XWblzTqlmc2rHQnuE%2BewCGa5LBgW0bmbhDPsWTSNj6udMHNYPI4fOe5mhUllhXvS3SwM1%2F2rLQOUziRDg%2Fg9j6fZcXUrcLVPgfYUgN1dtxxqfeyZhBGjQQ%3D%3D--nulWTGxAilaNPOuC--k4CUq93I2NEBZZEv%2BpjfYw%3D%3D; remember_token=y5wmSLijl97gI6BnRvw9yg; user_id=EGpnZA%2B6Zl%2F0qq5JfaAimQuOt%2BP6DLz3jwU7YJjCCP4%2FDTYmeabQpjuHGEg2fZIvjeBBpC3eUv6oryxdC0lLWW4ewxiUhu0%3D--enE8VJQrR7fNih%2Bv--EnGH06%2Frv319tu8yBNM6vQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_shared__stats_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 218,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 213,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_shared__stats_html_erb",
+          "method_id": "render",
+          "path": "app/views/shared/_stats.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 122700,
+            "value": "#<ActionView::PartialRenderer:0x00007f8a3a12d100>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_followers_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 222,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "d9d1b831ad9a46e514297e3bbc02279e4a23b9d282b76c8b822b49a23a5f6ff5",
+      "stack": [
+        "app/views/shared/_stats.html.erb",
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:58",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/followers",
+          "normalized_path_info": "/users/{id}/followers",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=7nff6w9TxwX8IVLigK8EtEnpsR995Fre6Zi39pazdhNWe50Pxxd0oJW23DJV%2B4kuFCHFqS4Xf5Y5xKCnK1eyJhy6RDaMAQmWJxOMOHhwhl2%2B8amOq2coiZLbnxWKYw2%2FDjM5aZwG8bC56DhfDk9JVzEMSls9pKzXDSR9vIo0giBQq5lHnprB%2BOgrEqHjpju7y8tU2StmS6cJfZfDeJNNjKmjHtUa1UWHeqyEac2YJ%2BhOphsUNVd0XWblzTqlmc2rHQnuE%2BewCGa5LBgW0bmbhDPsWTSNj6udMHNYPI4fOe5mhUllhXvS3SwM1%2F2rLQOUziRDg%2Fg9j6fZcXUrcLVPgfYUgN1dtxxqfeyZhBGjQQ%3D%3D--nulWTGxAilaNPOuC--k4CUq93I2NEBZZEv%2BpjfYw%3D%3D; remember_token=y5wmSLijl97gI6BnRvw9yg; user_id=EGpnZA%2B6Zl%2F0qq5JfaAimQuOt%2BP6DLz3jwU7YJjCCP4%2FDTYmeabQpjuHGEg2fZIvjeBBpC3eUv6oryxdC0lLWW4ewxiUhu0%3D--enE8VJQrR7fNih%2Bv--EnGH06%2Frv319tu8yBNM6vQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_shared__stats_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 222,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 213,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_shared__stats_html_erb",
+          "method_id": "render",
+          "path": "app/views/shared/_stats.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 122700,
+            "value": "#<ActionView::PartialRenderer:0x00007f8a3a12d100>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_followers_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 229,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "20be51db5809f01226a4c09c19ec9f6cc0c3e7efa61421248a3dfae908b334db",
+      "stack": [
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:58",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/followers",
+          "normalized_path_info": "/users/{id}/followers",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=7nff6w9TxwX8IVLigK8EtEnpsR995Fre6Zi39pazdhNWe50Pxxd0oJW23DJV%2B4kuFCHFqS4Xf5Y5xKCnK1eyJhy6RDaMAQmWJxOMOHhwhl2%2B8amOq2coiZLbnxWKYw2%2FDjM5aZwG8bC56DhfDk9JVzEMSls9pKzXDSR9vIo0giBQq5lHnprB%2BOgrEqHjpju7y8tU2StmS6cJfZfDeJNNjKmjHtUa1UWHeqyEac2YJ%2BhOphsUNVd0XWblzTqlmc2rHQnuE%2BewCGa5LBgW0bmbhDPsWTSNj6udMHNYPI4fOe5mhUllhXvS3SwM1%2F2rLQOUziRDg%2Fg9j6fZcXUrcLVPgfYUgN1dtxxqfeyZhBGjQQ%3D%3D--nulWTGxAilaNPOuC--k4CUq93I2NEBZZEv%2BpjfYw%3D%3D; remember_token=y5wmSLijl97gI6BnRvw9yg; user_id=EGpnZA%2B6Zl%2F0qq5JfaAimQuOt%2BP6DLz3jwU7YJjCCP4%2FDTYmeabQpjuHGEg2fZIvjeBBpC3eUv6oryxdC0lLWW4ewxiUhu0%3D--enE8VJQrR7fNih%2Bv--EnGH06%2Frv319tu8yBNM6vQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 229,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 194,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users_show_follow_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show_follow.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 122680,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a347d5030>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_followers_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 234,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ? LIMIT ? OFFSET ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "89d65c5604e6150ecb1447d04d950bb7c04d5fdc55d86624c59d9d38e57b628d",
+      "stack": [
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/activerecord-6.1.4.6/lib/active_record/relation.rb:248",
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:58",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/followers",
+          "normalized_path_info": "/users/{id}/followers",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=7nff6w9TxwX8IVLigK8EtEnpsR995Fre6Zi39pazdhNWe50Pxxd0oJW23DJV%2B4kuFCHFqS4Xf5Y5xKCnK1eyJhy6RDaMAQmWJxOMOHhwhl2%2B8amOq2coiZLbnxWKYw2%2FDjM5aZwG8bC56DhfDk9JVzEMSls9pKzXDSR9vIo0giBQq5lHnprB%2BOgrEqHjpju7y8tU2StmS6cJfZfDeJNNjKmjHtUa1UWHeqyEac2YJ%2BhOphsUNVd0XWblzTqlmc2rHQnuE%2BewCGa5LBgW0bmbhDPsWTSNj6udMHNYPI4fOe5mhUllhXvS3SwM1%2F2rLQOUziRDg%2Fg9j6fZcXUrcLVPgfYUgN1dtxxqfeyZhBGjQQ%3D%3D--nulWTGxAilaNPOuC--k4CUq93I2NEBZZEv%2BpjfYw%3D%3D; remember_token=y5wmSLijl97gI6BnRvw9yg; user_id=EGpnZA%2B6Zl%2F0qq5JfaAimQuOt%2BP6DLz3jwU7YJjCCP4%2FDTYmeabQpjuHGEg2fZIvjeBBpC3eUv6oryxdC0lLWW4ewxiUhu0%3D--enE8VJQrR7fNih%2Bv--EnGH06%2Frv319tu8yBNM6vQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 234,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ? LIMIT ? OFFSET ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 194,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users_show_follow_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show_follow.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 122680,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a347d5030>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_followers_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 249,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "06f403935ff1d8a3f4463e3f5cd507916d53b6f65714a6341f9f14ec92dcaa7d",
+      "stack": [
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:58",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/followers",
+          "normalized_path_info": "/users/{id}/followers",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=7nff6w9TxwX8IVLigK8EtEnpsR995Fre6Zi39pazdhNWe50Pxxd0oJW23DJV%2B4kuFCHFqS4Xf5Y5xKCnK1eyJhy6RDaMAQmWJxOMOHhwhl2%2B8amOq2coiZLbnxWKYw2%2FDjM5aZwG8bC56DhfDk9JVzEMSls9pKzXDSR9vIo0giBQq5lHnprB%2BOgrEqHjpju7y8tU2StmS6cJfZfDeJNNjKmjHtUa1UWHeqyEac2YJ%2BhOphsUNVd0XWblzTqlmc2rHQnuE%2BewCGa5LBgW0bmbhDPsWTSNj6udMHNYPI4fOe5mhUllhXvS3SwM1%2F2rLQOUziRDg%2Fg9j6fZcXUrcLVPgfYUgN1dtxxqfeyZhBGjQQ%3D%3D--nulWTGxAilaNPOuC--k4CUq93I2NEBZZEv%2BpjfYw%3D%3D; remember_token=y5wmSLijl97gI6BnRvw9yg; user_id=EGpnZA%2B6Zl%2F0qq5JfaAimQuOt%2BP6DLz3jwU7YJjCCP4%2FDTYmeabQpjuHGEg2fZIvjeBBpC3eUv6oryxdC0lLWW4ewxiUhu0%3D--enE8VJQrR7fNih%2Bv--EnGH06%2Frv319tu8yBNM6vQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 249,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 194,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users_show_follow_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show_follow.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 122680,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a347d5030>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_followers_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 310,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "eb164c88ef49d37804474430baeb7821741634829dc5dd66759af6153fa2e84b",
+      "stack": [
+        "app/views/layouts/_header.html.erb",
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:58",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/followers",
+          "normalized_path_info": "/users/{id}/followers",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=7nff6w9TxwX8IVLigK8EtEnpsR995Fre6Zi39pazdhNWe50Pxxd0oJW23DJV%2B4kuFCHFqS4Xf5Y5xKCnK1eyJhy6RDaMAQmWJxOMOHhwhl2%2B8amOq2coiZLbnxWKYw2%2FDjM5aZwG8bC56DhfDk9JVzEMSls9pKzXDSR9vIo0giBQq5lHnprB%2BOgrEqHjpju7y8tU2StmS6cJfZfDeJNNjKmjHtUa1UWHeqyEac2YJ%2BhOphsUNVd0XWblzTqlmc2rHQnuE%2BewCGa5LBgW0bmbhDPsWTSNj6udMHNYPI4fOe5mhUllhXvS3SwM1%2F2rLQOUziRDg%2Fg9j6fZcXUrcLVPgfYUgN1dtxxqfeyZhBGjQQ%3D%3D--nulWTGxAilaNPOuC--k4CUq93I2NEBZZEv%2BpjfYw%3D%3D; remember_token=y5wmSLijl97gI6BnRvw9yg; user_id=EGpnZA%2B6Zl%2F0qq5JfaAimQuOt%2BP6DLz3jwU7YJjCCP4%2FDTYmeabQpjuHGEg2fZIvjeBBpC3eUv6oryxdC0lLWW4ewxiUhu0%3D--enE8VJQrR7fNih%2Bv--EnGH06%2Frv319tu8yBNM6vQ%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_layouts__header_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 310,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 303,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_layouts__header_html_erb",
+          "method_id": "render",
+          "path": "app/views/layouts/_header.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 122740,
+            "value": "#<ActionView::PartialRenderer:0x00007f8a396b61b8>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 229,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "03c16dcb97bc424152726845f5882fdc4097193d91f0412e1fd611ad1cd3eb29",
+      "stack": [
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:51",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/following",
+          "normalized_path_info": "/users/{id}/following",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=VZyNxohFMpAH7vexIaO1qSLOapY4kCBYzgc%2FhSHqUSImxl5EFK5DhrVETHEWYmP0mL1qXViQvS%2FxgwYIEja9F3m3kXx8P%2BkhTlpzk32CYSOvXRHtHBLziK%2B1w4SVaCP9XBLhKl75ImPCMDeFL8c4vSN8th2ATBa7g3ASTOyzZ4IvESDNftEnDKYEiJ239GLxPm9X%2BpZ%2B4Pzwcl010nhxmGRC9C00iYhH1W49m8aBgoge434IfNV74bzBoCWS36%2B0%2Bnwqcv%2Fh1b003ImkqbEzHuN7l79v2H38yOeN5fZoB1ynuwUFBZOAxI6D1%2FEHayu6mtgy%2B3xuOclJfeCKZDa5z3Z5hWDIysGHX1pRNqvQ%2Fw%3D%3D--OBQ4rYmBYiiadlEW--1OCMB8iUJB5MlwflmRmw8A%3D%3D; remember_token=X-u_nTa448YHdlYf-dbyRA; user_id=fFOwclFMxdUcro80kMnSh0H5eBuVbtA88IQOpr1zy3Zz7lKS2WwXyx3fw01peqYwtvV3MTGQIWxPUvAiKs4m3A4TavjSuSg%3D--N6DwrA8LP%2Fc69OPX--jbT9rwPoqTHYZQuddOLAAg%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 229,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 194,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users_show_follow_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show_follow.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 105980,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a3a0ecbc8>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_following_page.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 234,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ? LIMIT ? OFFSET ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "976e6d5e5ac01236266bfde4ec7ab3776d4a9f3d461c0fd1d4ebaafbb42cc985",
+      "stack": [
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/activerecord-6.1.4.6/lib/active_record/relation.rb:248",
+        "app/views/users/show_follow.html.erb",
+        "app/controllers/users_controller.rb:51",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111/following",
+          "normalized_path_info": "/users/{id}/following",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=VZyNxohFMpAH7vexIaO1qSLOapY4kCBYzgc%2FhSHqUSImxl5EFK5DhrVETHEWYmP0mL1qXViQvS%2FxgwYIEja9F3m3kXx8P%2BkhTlpzk32CYSOvXRHtHBLziK%2B1w4SVaCP9XBLhKl75ImPCMDeFL8c4vSN8th2ATBa7g3ASTOyzZ4IvESDNftEnDKYEiJ239GLxPm9X%2BpZ%2B4Pzwcl010nhxmGRC9C00iYhH1W49m8aBgoge434IfNV74bzBoCWS36%2B0%2Bnwqcv%2Fh1b003ImkqbEzHuN7l79v2H38yOeN5fZoB1ynuwUFBZOAxI6D1%2FEHayu6mtgy%2B3xuOclJfeCKZDa5z3Z5hWDIysGHX1pRNqvQ%2Fw%3D%3D--OBQ4rYmBYiiadlEW--1OCMB8iUJB5MlwflmRmw8A%3D%3D; remember_token=X-u_nTa448YHdlYf-dbyRA; user_id=fFOwclFMxdUcro80kMnSh0H5eBuVbtA88IQOpr1zy3Zz7lKS2WwXyx3fw01peqYwtvV3MTGQIWxPUvAiKs4m3A4TavjSuSg%3D--N6DwrA8LP%2Fc69OPX--jbT9rwPoqTHYZQuddOLAAg%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_follow_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 234,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ? LIMIT ? OFFSET ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 194,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users_show_follow_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show_follow.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 105980,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a3a0ecbc8>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_should_follow_a_user_with_Ajax.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 269,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "70dbdebd213073b3056040d59428746a64f23b0aac92821b978b815a73599add",
+      "stack": [
+        "app/views/users/_unfollow.html.erb",
+        "app/views/relationships/create.js.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 155,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "POST",
+          "path_info": "/relationships",
+          "normalized_path_info": "/relationships",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/javascript, text/html, application/xml, text/xml, */*",
+            "X-Requested-With": "XMLHttpRequest",
+            "Cookie": "_sample_app_session=oP90IfWWBI193vEF2PfCZEcjDAY46gP0QVUPq0AC7yUGFW2pI0Q03F%2BA4SNu26rGRxP3dFPkofN3ykYxc2n9gMSQCQrpV6bTN4TaARiIu%2BeUXjraMc1HZH7qsmWObhK9Z%2BJcEo9kR7aWbRmHeq%2FfSdXdLPKKATKVbxrlnIjIgPc7Jn7rA1hxp3qu2GRURWQoyYH1%2FBDTPAEYoDYGoV89L8MPfM6zX7kEl7s0CZe4%2FtMJzcoyZQpi1GcGAasL40Li7JWPGGM%2FTyJHTiRwZxquJnR2h%2FA9wCF38zUqQ%2BKqKEZLhfzV6EP4HjpP39j%2Bx4GyqpItPZEmjlzgnl8EpH2LtRufTMu%2FVZalmigWBjeiGw%3D%3D--GgHWU2S2p1wJZgz0--snltj3Q%2BIW3BRP%2BAj6mNew%3D%3D; remember_token=79Z3KMA_9T8N_sLaR5MiAg; user_id=fekGgVDJw0RPJwB%2F7LxeTdkAS9wdOVa9lfW9vQgQ5NZyc6cn%2BnLdf5CJLNNu9%2Fs7pxTZ3HKvpwOCme%2BsYb3ibSGBZjpkHPw%3D--MbT7JRk3k2Wlsxi%2F--%2BU0VYwzA6fP%2Fq221He5%2FNQ%3D%3D",
+            "Content-Type": "application/x-www-form-urlencoded",
+            "Content-Length": "21"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users__unfollow_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 269,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 262,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users__unfollow_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/_unfollow.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 112340,
+            "value": "#<ActionView::PartialRenderer:0x00007f8a3a38aab0>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_should_follow_a_user_with_Ajax.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 278,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"relationships\".* FROM \"relationships\" WHERE \"relationships\".\"follower_id\" = ? AND \"relationships\".\"followed_id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "6882e47a1733d57500e3278ae875413bfe40864bd42ea94e1f13cffb2b02ffa6",
+      "stack": [
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/activerecord-6.1.4.6/lib/active_record/relation.rb:248",
+        "app/views/users/_unfollow.html.erb",
+        "app/views/relationships/create.js.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 155,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "POST",
+          "path_info": "/relationships",
+          "normalized_path_info": "/relationships",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/javascript, text/html, application/xml, text/xml, */*",
+            "X-Requested-With": "XMLHttpRequest",
+            "Cookie": "_sample_app_session=oP90IfWWBI193vEF2PfCZEcjDAY46gP0QVUPq0AC7yUGFW2pI0Q03F%2BA4SNu26rGRxP3dFPkofN3ykYxc2n9gMSQCQrpV6bTN4TaARiIu%2BeUXjraMc1HZH7qsmWObhK9Z%2BJcEo9kR7aWbRmHeq%2FfSdXdLPKKATKVbxrlnIjIgPc7Jn7rA1hxp3qu2GRURWQoyYH1%2FBDTPAEYoDYGoV89L8MPfM6zX7kEl7s0CZe4%2FtMJzcoyZQpi1GcGAasL40Li7JWPGGM%2FTyJHTiRwZxquJnR2h%2FA9wCF38zUqQ%2BKqKEZLhfzV6EP4HjpP39j%2Bx4GyqpItPZEmjlzgnl8EpH2LtRufTMu%2FVZalmigWBjeiGw%3D%3D--GgHWU2S2p1wJZgz0--snltj3Q%2BIW3BRP%2BAj6mNew%3D%3D; remember_token=79Z3KMA_9T8N_sLaR5MiAg; user_id=fekGgVDJw0RPJwB%2F7LxeTdkAS9wdOVa9lfW9vQgQ5NZyc6cn%2BnLdf5CJLNNu9%2Fs7pxTZ3HKvpwOCme%2BsYb3ibSGBZjpkHPw%3D--MbT7JRk3k2Wlsxi%2F--%2BU0VYwzA6fP%2Fq221He5%2FNQ%3D%3D",
+            "Content-Type": "application/x-www-form-urlencoded",
+            "Content-Length": "21"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users__unfollow_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 278,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"relationships\".* FROM \"relationships\" WHERE \"relationships\".\"follower_id\" = ? AND \"relationships\".\"followed_id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 262,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users__unfollow_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/_unfollow.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 112340,
+            "value": "#<ActionView::PartialRenderer:0x00007f8a3a38aab0>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_should_follow_a_user_with_Ajax.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 286,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "c99b37d1354d712e9e36df602aac5ed084bc4d1238d5e641b88e1fb0dbeee3b6",
+      "stack": [
+        "app/views/relationships/create.js.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 155,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "POST",
+          "path_info": "/relationships",
+          "normalized_path_info": "/relationships",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/javascript, text/html, application/xml, text/xml, */*",
+            "X-Requested-With": "XMLHttpRequest",
+            "Cookie": "_sample_app_session=oP90IfWWBI193vEF2PfCZEcjDAY46gP0QVUPq0AC7yUGFW2pI0Q03F%2BA4SNu26rGRxP3dFPkofN3ykYxc2n9gMSQCQrpV6bTN4TaARiIu%2BeUXjraMc1HZH7qsmWObhK9Z%2BJcEo9kR7aWbRmHeq%2FfSdXdLPKKATKVbxrlnIjIgPc7Jn7rA1hxp3qu2GRURWQoyYH1%2FBDTPAEYoDYGoV89L8MPfM6zX7kEl7s0CZe4%2FtMJzcoyZQpi1GcGAasL40Li7JWPGGM%2FTyJHTiRwZxquJnR2h%2FA9wCF38zUqQ%2BKqKEZLhfzV6EP4HjpP39j%2Bx4GyqpItPZEmjlzgnl8EpH2LtRufTMu%2FVZalmigWBjeiGw%3D%3D--GgHWU2S2p1wJZgz0--snltj3Q%2BIW3BRP%2BAj6mNew%3D%3D; remember_token=79Z3KMA_9T8N_sLaR5MiAg; user_id=fekGgVDJw0RPJwB%2F7LxeTdkAS9wdOVa9lfW9vQgQ5NZyc6cn%2BnLdf5CJLNNu9%2Fs7pxTZ3HKvpwOCme%2BsYb3ibSGBZjpkHPw%3D--MbT7JRk3k2Wlsxi%2F--%2BU0VYwzA6fP%2Fq221He5%2FNQ%3D%3D",
+            "Content-Type": "application/x-www-form-urlencoded",
+            "Content-Length": "21"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_relationships_create_js_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 286,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 239,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_relationships_create_js_erb",
+          "method_id": "render",
+          "path": "app/views/relationships/create.js.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 112320,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a3454f090>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_should_unfollow_a_user_with_Ajax.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 293,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "2543ebb1c7dad949710dd219e9c28ed624f86dd03a7d68f71a803f8c93493876",
+      "stack": [
+        "app/views/users/_follow.html.erb",
+        "app/views/relationships/destroy.js.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 187,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "DELETE",
+          "path_info": "/relationships/980190963",
+          "normalized_path_info": "/relationships/{id}",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/javascript, text/html, application/xml, text/xml, */*",
+            "X-Requested-With": "XMLHttpRequest",
+            "Cookie": "_sample_app_session=DvJSqMqKfqOvIVTkePehdq0rTQCiwT2SsroVuoYUMIBwYkdbG63%2F2xfrEZ4w4CnSpjGDaJlf9llHAm54RkzbY9kJq65VUTjYN2zxWYwg6RLsyN7ApEiYV7aIgNT8fpBxdapHtwNK4BZoOmCr%2BaYNAQbDxM4Jdqe%2B69CwhwAG1Su8vbARj1e31bACeThf%2BzIxDpv9DTSmG2OltqwY%2FnOb8SY8yppqK6NrCyY5zvkz2QyH6Jey8%2Buc%2FyTnWKbO01JSNvAVycg%2FXfnZIJ6e0alo174C8VMbJuE7X%2BtaouVWbRHbDr1kwDAlRg7Llxwd6TqIz4dBIcq4m4xHZkfvT7%2F7zCuRbqeEgQVmhZzJlvkE5w%3D%3D--QRStsLYJ6RiXvSxU--pdKumFMxkN9atzmZt64cSg%3D%3D; remember_token=KlfB71d8wkW-WOKoNPRplw; user_id=wxrTWec2d9zjiAvWD1C4QP2eod88qMqIVIc0fBmq3tWgxYwOpxKOOFQ6Rd6amSEbVRshPwA%2F274Fbc1ase0WohFXuE8sZ5w%3D--LI13HaCYW2AesRHK--aeXcYW%2FVj5yHwxguc4Sr9g%3D%3D",
+            "Content-Type": "application/x-www-form-urlencoded",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users__follow_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 293,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 286,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users__follow_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/_follow.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 118800,
+            "value": "#<ActionView::PartialRenderer:0x00007f8a3b055768>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Following_should_unfollow_a_user_with_Ajax.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 304,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "f2ab31cf7f34a4610532de49e071f6bc95b038e4c532d2181af6597b41d75697",
+      "stack": [
+        "app/views/relationships/destroy.js.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 187,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "DELETE",
+          "path_info": "/relationships/980190963",
+          "normalized_path_info": "/relationships/{id}",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/javascript, text/html, application/xml, text/xml, */*",
+            "X-Requested-With": "XMLHttpRequest",
+            "Cookie": "_sample_app_session=DvJSqMqKfqOvIVTkePehdq0rTQCiwT2SsroVuoYUMIBwYkdbG63%2F2xfrEZ4w4CnSpjGDaJlf9llHAm54RkzbY9kJq65VUTjYN2zxWYwg6RLsyN7ApEiYV7aIgNT8fpBxdapHtwNK4BZoOmCr%2BaYNAQbDxM4Jdqe%2B69CwhwAG1Su8vbARj1e31bACeThf%2BzIxDpv9DTSmG2OltqwY%2FnOb8SY8yppqK6NrCyY5zvkz2QyH6Jey8%2Buc%2FyTnWKbO01JSNvAVycg%2FXfnZIJ6e0alo174C8VMbJuE7X%2BtaouVWbRHbDr1kwDAlRg7Llxwd6TqIz4dBIcq4m4xHZkfvT7%2F7zCuRbqeEgQVmhZzJlvkE5w%3D%3D--QRStsLYJ6RiXvSxU--pdKumFMxkN9atzmZt64cSg%3D%3D; remember_token=KlfB71d8wkW-WOKoNPRplw; user_id=wxrTWec2d9zjiAvWD1C4QP2eod88qMqIVIc0fBmq3tWgxYwOpxKOOFQ6Rd6amSEbVRshPwA%2F274Fbc1ase0WohFXuE8sZ5w%3D--LI13HaCYW2AesRHK--aeXcYW%2FVj5yHwxguc4Sr9g%3D%3D",
+            "Content-Type": "application/x-www-form-urlencoded",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_relationships_destroy_js_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 304,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT COUNT(*) FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"follower_id\" WHERE \"relationships\".\"followed_id\" = ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 263,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_relationships_destroy_js_erb",
+          "method_id": "render",
+          "path": "app/views/relationships/destroy.js.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 118780,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a3b08d8e8>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json",
+      "checkId": "n-plus-one-query",
+      "ruleId": "n-plus-one-query",
+      "ruleTitle": "N plus 1 SQL query",
+      "event": {
+        "id": 356,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "85e714418ac26ab2ed674c83d9031766976b4a5f9047d0b462b781651334ad7c",
+      "stack": [
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/activerecord-6.1.4.6/lib/active_record/relation.rb:248",
+        "app/views/shared/_feed.html.erb",
+        "app/views/static_pages/home.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 143,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/",
+          "normalized_path_info": "",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=kLhf5h%2FIiK4SA2C%2FlMClGSDDWKUvkBT30PfUViEaLOeeeAR8PRfW87zLDKwT3A4SiSdELUe%2Bn4zM%2FuZl8P5NAdlwPlvt3neAn7bS98KYDXrehor3yKIIpP%2FGz7VBWkEcz7oCmBoJWI9bUNVdw8%2FGTxWeXOUXoH%2Bwg1boG0oT4I0yx3JFayEoWGf50OS2BSLoNQFDLAhob76ZnX36AEfE0uyW4OXdKF0PfJkGC1T7WBDTYdGgBYyA0MGsr%2F4FDXliBMZDWYOvKJSfKsZt1RhwdnWOaOEPGLeciksgeWkpKhJtFLlU8%2F3WfYrB28Kb%2F6sGYGoApAw1ser0oYr%2F7HNXucICqXDKdhF6i78wq%2BLPsA%3D%3D--9S2qbiA770rFkGxJ--cMI3swGbUe%2FcuRCTfu%2B47w%3D%3D; remember_token=h50rcRpMJmuq6CmDCBEe-A; user_id=k7TvWVO07WCJ%2Fl58Fo0mU4WJzVhEhvkG%2Bo%2BgBsFrdWd133%2B1HNhKBHZ0Cn%2FQ8g8eIvPY0DJ9k6MRT1o59Fd95o74minXx9Y%3D--wG7MQodfEZYK6lFS--Xmjd44%2BxpD563Vhoyt1bUw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "30 occurrences of SQL: SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+      "groupMessage": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+      "occurranceCount": 30,
+      "relatedEvents": [
+        {
+          "id": 356,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 378,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 400,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 422,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 444,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 466,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 488,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 510,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 532,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 554,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 576,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 598,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 620,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 642,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 664,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 686,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 708,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 730,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 752,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 774,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 796,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 818,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 840,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 862,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 884,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 906,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 928,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 950,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 972,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 994,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 226,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "df2103c2854601397a3da18b5b0c2da491e94c5b98fd628741544cde168c7b80",
+      "stack": [
+        "app/views/static_pages/home.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 143,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/",
+          "normalized_path_info": "",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=kLhf5h%2FIiK4SA2C%2FlMClGSDDWKUvkBT30PfUViEaLOeeeAR8PRfW87zLDKwT3A4SiSdELUe%2Bn4zM%2FuZl8P5NAdlwPlvt3neAn7bS98KYDXrehor3yKIIpP%2FGz7VBWkEcz7oCmBoJWI9bUNVdw8%2FGTxWeXOUXoH%2Bwg1boG0oT4I0yx3JFayEoWGf50OS2BSLoNQFDLAhob76ZnX36AEfE0uyW4OXdKF0PfJkGC1T7WBDTYdGgBYyA0MGsr%2F4FDXliBMZDWYOvKJSfKsZt1RhwdnWOaOEPGLeciksgeWkpKhJtFLlU8%2F3WfYrB28Kb%2F6sGYGoApAw1ser0oYr%2F7HNXucICqXDKdhF6i78wq%2BLPsA%3D%3D--9S2qbiA770rFkGxJ--cMI3swGbUe%2FcuRCTfu%2B47w%3D%3D; remember_token=h50rcRpMJmuq6CmDCBEe-A; user_id=k7TvWVO07WCJ%2Fl58Fo0mU4WJzVhEhvkG%2Bo%2BgBsFrdWd133%2B1HNhKBHZ0Cn%2FQ8g8eIvPY0DJ9k6MRT1o59Fd95o74minXx9Y%3D--wG7MQodfEZYK6lFS--Xmjd44%2BxpD563Vhoyt1bUw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_static_pages_home_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 226,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 207,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_static_pages_home_html_erb",
+          "method_id": "render",
+          "path": "app/views/static_pages/home.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 198120,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a3472bda0>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 239,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "11ca6e2d227fca62e74fbae63912ccfd7ebf3106bde163797f2df56a86009bcd",
+      "stack": [
+        "app/views/shared/_user_info.html.erb",
+        "app/views/static_pages/home.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 143,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/",
+          "normalized_path_info": "",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=kLhf5h%2FIiK4SA2C%2FlMClGSDDWKUvkBT30PfUViEaLOeeeAR8PRfW87zLDKwT3A4SiSdELUe%2Bn4zM%2FuZl8P5NAdlwPlvt3neAn7bS98KYDXrehor3yKIIpP%2FGz7VBWkEcz7oCmBoJWI9bUNVdw8%2FGTxWeXOUXoH%2Bwg1boG0oT4I0yx3JFayEoWGf50OS2BSLoNQFDLAhob76ZnX36AEfE0uyW4OXdKF0PfJkGC1T7WBDTYdGgBYyA0MGsr%2F4FDXliBMZDWYOvKJSfKsZt1RhwdnWOaOEPGLeciksgeWkpKhJtFLlU8%2F3WfYrB28Kb%2F6sGYGoApAw1ser0oYr%2F7HNXucICqXDKdhF6i78wq%2BLPsA%3D%3D--9S2qbiA770rFkGxJ--cMI3swGbUe%2FcuRCTfu%2B47w%3D%3D; remember_token=h50rcRpMJmuq6CmDCBEe-A; user_id=k7TvWVO07WCJ%2Fl58Fo0mU4WJzVhEhvkG%2Bo%2BgBsFrdWd133%2B1HNhKBHZ0Cn%2FQ8g8eIvPY0DJ9k6MRT1o59Fd95o74minXx9Y%3D--wG7MQodfEZYK6lFS--Xmjd44%2BxpD563Vhoyt1bUw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_shared__user_info_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 239,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 232,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_shared__user_info_html_erb",
+          "method_id": "render",
+          "path": "app/views/shared/_user_info.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 198140,
+            "value": "#<ActionView::PartialRenderer:0x00007f8a34701fa0>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 287,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT COUNT(*) FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "cb865762e9e960f7243fcda8076427b1f096d11858a65080abfa2df722b13275",
+      "stack": [
+        "app/views/shared/_user_info.html.erb",
+        "app/views/static_pages/home.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 143,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/",
+          "normalized_path_info": "",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=kLhf5h%2FIiK4SA2C%2FlMClGSDDWKUvkBT30PfUViEaLOeeeAR8PRfW87zLDKwT3A4SiSdELUe%2Bn4zM%2FuZl8P5NAdlwPlvt3neAn7bS98KYDXrehor3yKIIpP%2FGz7VBWkEcz7oCmBoJWI9bUNVdw8%2FGTxWeXOUXoH%2Bwg1boG0oT4I0yx3JFayEoWGf50OS2BSLoNQFDLAhob76ZnX36AEfE0uyW4OXdKF0PfJkGC1T7WBDTYdGgBYyA0MGsr%2F4FDXliBMZDWYOvKJSfKsZt1RhwdnWOaOEPGLeciksgeWkpKhJtFLlU8%2F3WfYrB28Kb%2F6sGYGoApAw1ser0oYr%2F7HNXucICqXDKdhF6i78wq%2BLPsA%3D%3D--9S2qbiA770rFkGxJ--cMI3swGbUe%2FcuRCTfu%2B47w%3D%3D; remember_token=h50rcRpMJmuq6CmDCBEe-A; user_id=k7TvWVO07WCJ%2Fl58Fo0mU4WJzVhEhvkG%2Bo%2BgBsFrdWd133%2B1HNhKBHZ0Cn%2FQ8g8eIvPY0DJ9k6MRT1o59Fd95o74minXx9Y%3D--wG7MQodfEZYK6lFS--Xmjd44%2BxpD563Vhoyt1bUw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_shared__user_info_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 287,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT COUNT(*) FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 232,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_shared__user_info_html_erb",
+          "method_id": "render",
+          "path": "app/views/shared/_user_info.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 198140,
+            "value": "#<ActionView::PartialRenderer:0x00007f8a34701fa0>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 299,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "4a4f3ee577fa44c4e3505a929b65608310ff887314a5933a0645dda3da3d636a",
+      "stack": [
+        "app/views/shared/_stats.html.erb",
+        "app/views/static_pages/home.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 143,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/",
+          "normalized_path_info": "",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=kLhf5h%2FIiK4SA2C%2FlMClGSDDWKUvkBT30PfUViEaLOeeeAR8PRfW87zLDKwT3A4SiSdELUe%2Bn4zM%2FuZl8P5NAdlwPlvt3neAn7bS98KYDXrehor3yKIIpP%2FGz7VBWkEcz7oCmBoJWI9bUNVdw8%2FGTxWeXOUXoH%2Bwg1boG0oT4I0yx3JFayEoWGf50OS2BSLoNQFDLAhob76ZnX36AEfE0uyW4OXdKF0PfJkGC1T7WBDTYdGgBYyA0MGsr%2F4FDXliBMZDWYOvKJSfKsZt1RhwdnWOaOEPGLeciksgeWkpKhJtFLlU8%2F3WfYrB28Kb%2F6sGYGoApAw1ser0oYr%2F7HNXucICqXDKdhF6i78wq%2BLPsA%3D%3D--9S2qbiA770rFkGxJ--cMI3swGbUe%2FcuRCTfu%2B47w%3D%3D; remember_token=h50rcRpMJmuq6CmDCBEe-A; user_id=k7TvWVO07WCJ%2Fl58Fo0mU4WJzVhEhvkG%2Bo%2BgBsFrdWd133%2B1HNhKBHZ0Cn%2FQ8g8eIvPY0DJ9k6MRT1o59Fd95o74minXx9Y%3D--wG7MQodfEZYK6lFS--Xmjd44%2BxpD563Vhoyt1bUw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_shared__stats_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 299,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 292,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_shared__stats_html_erb",
+          "method_id": "render",
+          "path": "app/views/shared/_stats.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 198160,
+            "value": "#<ActionView::PartialRenderer:0x00007f8a395cfa10>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 333,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT COUNT(*) FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111)",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "28595133c09ea7fc9dc58e2c9ab29000e7810ca142274067f9c26acd753ea53f",
+      "stack": [
+        "app/views/shared/_feed.html.erb",
+        "app/views/static_pages/home.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 143,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/",
+          "normalized_path_info": "",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=kLhf5h%2FIiK4SA2C%2FlMClGSDDWKUvkBT30PfUViEaLOeeeAR8PRfW87zLDKwT3A4SiSdELUe%2Bn4zM%2FuZl8P5NAdlwPlvt3neAn7bS98KYDXrehor3yKIIpP%2FGz7VBWkEcz7oCmBoJWI9bUNVdw8%2FGTxWeXOUXoH%2Bwg1boG0oT4I0yx3JFayEoWGf50OS2BSLoNQFDLAhob76ZnX36AEfE0uyW4OXdKF0PfJkGC1T7WBDTYdGgBYyA0MGsr%2F4FDXliBMZDWYOvKJSfKsZt1RhwdnWOaOEPGLeciksgeWkpKhJtFLlU8%2F3WfYrB28Kb%2F6sGYGoApAw1ser0oYr%2F7HNXucICqXDKdhF6i78wq%2BLPsA%3D%3D--9S2qbiA770rFkGxJ--cMI3swGbUe%2FcuRCTfu%2B47w%3D%3D; remember_token=h50rcRpMJmuq6CmDCBEe-A; user_id=k7TvWVO07WCJ%2Fl58Fo0mU4WJzVhEhvkG%2Bo%2BgBsFrdWd133%2B1HNhKBHZ0Cn%2FQ8g8eIvPY0DJ9k6MRT1o59Fd95o74minXx9Y%3D--wG7MQodfEZYK6lFS--Xmjd44%2BxpD563Vhoyt1bUw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_shared__feed_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 333,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT COUNT(*) FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111)",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 328,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_shared__feed_html_erb",
+          "method_id": "render",
+          "path": "app/views/shared/_feed.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 198220,
+            "value": "#<ActionView::PartialRenderer:0x00007f8a395a2240>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 338,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"microposts\".* FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) ORDER BY \"microposts\".\"created_at\" DESC LIMIT ? OFFSET ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "a0411c6fb65d440c653826a2f6208acac0aaebcf5f24b78e3781b1203e489012",
+      "stack": [
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/activerecord-6.1.4.6/lib/active_record/relation.rb:248",
+        "app/views/shared/_feed.html.erb",
+        "app/views/static_pages/home.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 143,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/",
+          "normalized_path_info": "",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=kLhf5h%2FIiK4SA2C%2FlMClGSDDWKUvkBT30PfUViEaLOeeeAR8PRfW87zLDKwT3A4SiSdELUe%2Bn4zM%2FuZl8P5NAdlwPlvt3neAn7bS98KYDXrehor3yKIIpP%2FGz7VBWkEcz7oCmBoJWI9bUNVdw8%2FGTxWeXOUXoH%2Bwg1boG0oT4I0yx3JFayEoWGf50OS2BSLoNQFDLAhob76ZnX36AEfE0uyW4OXdKF0PfJkGC1T7WBDTYdGgBYyA0MGsr%2F4FDXliBMZDWYOvKJSfKsZt1RhwdnWOaOEPGLeciksgeWkpKhJtFLlU8%2F3WfYrB28Kb%2F6sGYGoApAw1ser0oYr%2F7HNXucICqXDKdhF6i78wq%2BLPsA%3D%3D--9S2qbiA770rFkGxJ--cMI3swGbUe%2FcuRCTfu%2B47w%3D%3D; remember_token=h50rcRpMJmuq6CmDCBEe-A; user_id=k7TvWVO07WCJ%2Fl58Fo0mU4WJzVhEhvkG%2Bo%2BgBsFrdWd133%2B1HNhKBHZ0Cn%2FQ8g8eIvPY0DJ9k6MRT1o59Fd95o74minXx9Y%3D--wG7MQodfEZYK6lFS--Xmjd44%2BxpD563Vhoyt1bUw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_shared__feed_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 338,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"microposts\".* FROM \"microposts\" WHERE (user_id IN (SELECT followed_id FROM relationships\n                     WHERE  follower_id = 762146111)\n                     OR user_id = 762146111) ORDER BY \"microposts\".\"created_at\" DESC LIMIT ? OFFSET ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 328,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_shared__feed_html_erb",
+          "method_id": "render",
+          "path": "app/views/shared/_feed.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 198220,
+            "value": "#<ActionView::PartialRenderer:0x00007f8a395a2240>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 350,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "eeddf03061ab8a303d08c100078822d4c5f64b32f05210af90ac700a7d4ef2fe",
+      "stack": [
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/activerecord-6.1.4.6/lib/active_record/relation.rb:248",
+        "app/views/shared/_feed.html.erb",
+        "app/views/static_pages/home.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 143,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/",
+          "normalized_path_info": "",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=kLhf5h%2FIiK4SA2C%2FlMClGSDDWKUvkBT30PfUViEaLOeeeAR8PRfW87zLDKwT3A4SiSdELUe%2Bn4zM%2FuZl8P5NAdlwPlvt3neAn7bS98KYDXrehor3yKIIpP%2FGz7VBWkEcz7oCmBoJWI9bUNVdw8%2FGTxWeXOUXoH%2Bwg1boG0oT4I0yx3JFayEoWGf50OS2BSLoNQFDLAhob76ZnX36AEfE0uyW4OXdKF0PfJkGC1T7WBDTYdGgBYyA0MGsr%2F4FDXliBMZDWYOvKJSfKsZt1RhwdnWOaOEPGLeciksgeWkpKhJtFLlU8%2F3WfYrB28Kb%2F6sGYGoApAw1ser0oYr%2F7HNXucICqXDKdhF6i78wq%2BLPsA%3D%3D--9S2qbiA770rFkGxJ--cMI3swGbUe%2FcuRCTfu%2B47w%3D%3D; remember_token=h50rcRpMJmuq6CmDCBEe-A; user_id=k7TvWVO07WCJ%2Fl58Fo0mU4WJzVhEhvkG%2Bo%2BgBsFrdWd133%2B1HNhKBHZ0Cn%2FQ8g8eIvPY0DJ9k6MRT1o59Fd95o74minXx9Y%3D--wG7MQodfEZYK6lFS--Xmjd44%2BxpD563Vhoyt1bUw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_shared__feed_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 350,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 328,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_shared__feed_html_erb",
+          "method_id": "render",
+          "path": "app/views/shared/_feed.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 198220,
+            "value": "#<ActionView::PartialRenderer:0x00007f8a395a2240>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 356,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "8e57af647d6845b136e5f1f2f31ec86e347ca9df34dcead34dfe5b122b548ab0",
+      "stack": [
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/activerecord-6.1.4.6/lib/active_record/relation.rb:248",
+        "app/views/shared/_feed.html.erb",
+        "app/views/static_pages/home.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 143,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/",
+          "normalized_path_info": "",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=kLhf5h%2FIiK4SA2C%2FlMClGSDDWKUvkBT30PfUViEaLOeeeAR8PRfW87zLDKwT3A4SiSdELUe%2Bn4zM%2FuZl8P5NAdlwPlvt3neAn7bS98KYDXrehor3yKIIpP%2FGz7VBWkEcz7oCmBoJWI9bUNVdw8%2FGTxWeXOUXoH%2Bwg1boG0oT4I0yx3JFayEoWGf50OS2BSLoNQFDLAhob76ZnX36AEfE0uyW4OXdKF0PfJkGC1T7WBDTYdGgBYyA0MGsr%2F4FDXliBMZDWYOvKJSfKsZt1RhwdnWOaOEPGLeciksgeWkpKhJtFLlU8%2F3WfYrB28Kb%2F6sGYGoApAw1ser0oYr%2F7HNXucICqXDKdhF6i78wq%2BLPsA%3D%3D--9S2qbiA770rFkGxJ--cMI3swGbUe%2FcuRCTfu%2B47w%3D%3D; remember_token=h50rcRpMJmuq6CmDCBEe-A; user_id=k7TvWVO07WCJ%2Fl58Fo0mU4WJzVhEhvkG%2Bo%2BgBsFrdWd133%2B1HNhKBHZ0Cn%2FQ8g8eIvPY0DJ9k6MRT1o59Fd95o74minXx9Y%3D--wG7MQodfEZYK6lFS--Xmjd44%2BxpD563Vhoyt1bUw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_shared__feed_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 356,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 328,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_shared__feed_html_erb",
+          "method_id": "render",
+          "path": "app/views/shared/_feed.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 198220,
+            "value": "#<ActionView::PartialRenderer:0x00007f8a395a2240>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 2548,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"active_storage_blobs\".* FROM \"active_storage_blobs\" WHERE \"active_storage_blobs\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "0872b130a71839a5d28e0d27cdc013db22d02ffd7cb9b14835fec84eff0f510b",
+      "stack": [
+        "app/models/micropost.rb:13",
+        "app/views/shared/_feed.html.erb",
+        "app/views/static_pages/home.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 2329,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/",
+          "normalized_path_info": "",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=BJ1llBroc9PtY9YTXEbBmVXmkg8XlFf%2FqiubeeLb1K8nCilODmIU%2Bln4x0FuN7stDQHQPUf3vyuuQsx3YHb6XvC%2BcnCWiRlCA3OR0FmSfdPPNKXMCgrNV9w5Ave4VZk%2FuFEUqhT1bk66TPRcjBP2Aw%2Bgj5t5oZFUYxnSRKK1hKfiGYFGE6LLoQ7%2BLDYW9iSrkNwaWEXWfOqZPjtPc8Dz3W%2F96UbJGWqv5s6z8p1AN819suJ%2F9TRpsbVCO1G4GrX79i7OU5bndZSseHCdt5S5PCvoGKpBa2%2BgJ4VL%2Fj9G5QBjWVawdupIMKJn8qbudLu%2BRdNJXr4gwQ21vtJl%2BrqUPnlJVW3Lewp6j1EDCNQxL9%2BAeY1RAgYdksAmjAR3hWZzobCDGJXHziZ7eGpaJXycQLstZBvStVvAmITh3pEAjDndnlkEcO39qY5fo1Y15CwXKh9vYdt7frNBffxI3hkdfudSfVjoh%2FE%3D--mqTvEixMNlRPBz3C--Qk4kOi0n88x50b%2BoNdGjXA%3D%3D; remember_token=h50rcRpMJmuq6CmDCBEe-A; user_id=k7TvWVO07WCJ%2Fl58Fo0mU4WJzVhEhvkG%2Bo%2BgBsFrdWd133%2B1HNhKBHZ0Cn%2FQ8g8eIvPY0DJ9k6MRT1o59Fd95o74minXx9Y%3D--wG7MQodfEZYK6lFS--Xmjd44%2BxpD563Vhoyt1bUw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_shared__feed_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 2548,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_blobs\".* FROM \"active_storage_blobs\" WHERE \"active_storage_blobs\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 2514,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_shared__feed_html_erb",
+          "method_id": "render",
+          "path": "app/views/shared/_feed.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 198620,
+            "value": "#<ActionView::PartialRenderer:0x00007f8a394d37d8>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 3568,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "6b0b77d6b5d4abae9be7b2b6af9c3ff7b4dc282cb47af3213ac12c8b458c2119",
+      "stack": [
+        "app/views/users/show.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 3497,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/950961012",
+          "normalized_path_info": "/users/{id}",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=3Gm8AUQAmE80VroH1ePfCf4ZfAf%2B1rLGi8S534R0jO2BiiKbfBtw%2FJvYvuon%2F71jLmlf1jRUt%2BJfWVHBqwbLWY356AB7mV2mwmImwsTi2D%2Bs4keYUl3i7xVyFPMz%2BVsNEvTzIPty6s%2FU7hOn911Bs0dfcWbOwMDs4d%2BTdNDebmz9dzBsVIxtOEFoM2Udj704ohNMsM9%2FlM44PRy8uvjbyJpeh2Zq4Rv7xL5ykBQ%2BNuMysuHovtPGMmzhRvGEzYOnD7FpkEqFYs3iKbNOMYGrQs7ehL37OwBxEf4mL5TN9gX1JzPR8%2FpGyXNQ9ZbVlXLotEn1mtttDTekY6olobEN16mpFNDZ1jSi1lGxOsGEjYdb21M04yejyfymKHRF%2B2cnTUNJkWnYNA1vOorYnKAtf14ryEQN475eQ2p%2B2HfrzQSjF0XZkyFzKjTIwcGZDZz%2FP4JEqUSdwZTxwvPUQ%2BCunUBqVQ%3D%3D--W0WMVyv3jvMzGAoU--F1wrTT5tscLKte8zK0b9pg%3D%3D; remember_token=h50rcRpMJmuq6CmDCBEe-A; user_id=k7TvWVO07WCJ%2Fl58Fo0mU4WJzVhEhvkG%2Bo%2BgBsFrdWd133%2B1HNhKBHZ0Cn%2FQ8g8eIvPY0DJ9k6MRT1o59Fd95o74minXx9Y%3D--wG7MQodfEZYK6lFS--Xmjd44%2BxpD563Vhoyt1bUw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 3568,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 3535,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users_show_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 198740,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a3b0ac810>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 3581,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "19b6885512e304cdb9fb14edc492b081376ae9f686556ceb5a530ec55098b864",
+      "stack": [
+        "app/views/users/_follow_form.html.erb",
+        "app/views/users/show.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 3497,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/950961012",
+          "normalized_path_info": "/users/{id}",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=3Gm8AUQAmE80VroH1ePfCf4ZfAf%2B1rLGi8S534R0jO2BiiKbfBtw%2FJvYvuon%2F71jLmlf1jRUt%2BJfWVHBqwbLWY356AB7mV2mwmImwsTi2D%2Bs4keYUl3i7xVyFPMz%2BVsNEvTzIPty6s%2FU7hOn911Bs0dfcWbOwMDs4d%2BTdNDebmz9dzBsVIxtOEFoM2Udj704ohNMsM9%2FlM44PRy8uvjbyJpeh2Zq4Rv7xL5ykBQ%2BNuMysuHovtPGMmzhRvGEzYOnD7FpkEqFYs3iKbNOMYGrQs7ehL37OwBxEf4mL5TN9gX1JzPR8%2FpGyXNQ9ZbVlXLotEn1mtttDTekY6olobEN16mpFNDZ1jSi1lGxOsGEjYdb21M04yejyfymKHRF%2B2cnTUNJkWnYNA1vOorYnKAtf14ryEQN475eQ2p%2B2HfrzQSjF0XZkyFzKjTIwcGZDZz%2FP4JEqUSdwZTxwvPUQ%2BCunUBqVQ%3D%3D--W0WMVyv3jvMzGAoU--F1wrTT5tscLKte8zK0b9pg%3D%3D; remember_token=h50rcRpMJmuq6CmDCBEe-A; user_id=k7TvWVO07WCJ%2Fl58Fo0mU4WJzVhEhvkG%2Bo%2BgBsFrdWd133%2B1HNhKBHZ0Cn%2FQ8g8eIvPY0DJ9k6MRT1o59Fd95o74minXx9Y%3D--wG7MQodfEZYK6lFS--Xmjd44%2BxpD563Vhoyt1bUw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users__follow_form_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 3581,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 3574,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users__follow_form_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/_follow_form.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 198780,
+            "value": "#<ActionView::PartialRenderer:0x00007f8a3b04fb10>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 3600,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT 1 AS one FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ? AND \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "ecfdbbc79949c3f9e989c4c68641aac4ce8f30fac4d40b776522d234357b04b7",
+      "stack": [
+        "app/models/user.rb:106",
+        "app/views/users/_follow_form.html.erb",
+        "app/views/users/show.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 3497,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/950961012",
+          "normalized_path_info": "/users/{id}",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=3Gm8AUQAmE80VroH1ePfCf4ZfAf%2B1rLGi8S534R0jO2BiiKbfBtw%2FJvYvuon%2F71jLmlf1jRUt%2BJfWVHBqwbLWY356AB7mV2mwmImwsTi2D%2Bs4keYUl3i7xVyFPMz%2BVsNEvTzIPty6s%2FU7hOn911Bs0dfcWbOwMDs4d%2BTdNDebmz9dzBsVIxtOEFoM2Udj704ohNMsM9%2FlM44PRy8uvjbyJpeh2Zq4Rv7xL5ykBQ%2BNuMysuHovtPGMmzhRvGEzYOnD7FpkEqFYs3iKbNOMYGrQs7ehL37OwBxEf4mL5TN9gX1JzPR8%2FpGyXNQ9ZbVlXLotEn1mtttDTekY6olobEN16mpFNDZ1jSi1lGxOsGEjYdb21M04yejyfymKHRF%2B2cnTUNJkWnYNA1vOorYnKAtf14ryEQN475eQ2p%2B2HfrzQSjF0XZkyFzKjTIwcGZDZz%2FP4JEqUSdwZTxwvPUQ%2BCunUBqVQ%3D%3D--W0WMVyv3jvMzGAoU--F1wrTT5tscLKte8zK0b9pg%3D%3D; remember_token=h50rcRpMJmuq6CmDCBEe-A; user_id=k7TvWVO07WCJ%2Fl58Fo0mU4WJzVhEhvkG%2Bo%2BgBsFrdWd133%2B1HNhKBHZ0Cn%2FQ8g8eIvPY0DJ9k6MRT1o59Fd95o74minXx9Y%3D--wG7MQodfEZYK6lFS--Xmjd44%2BxpD563Vhoyt1bUw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users__follow_form_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 3600,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT 1 AS one FROM \"users\" INNER JOIN \"relationships\" ON \"users\".\"id\" = \"relationships\".\"followed_id\" WHERE \"relationships\".\"follower_id\" = ? AND \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 3574,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users__follow_form_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/_follow_form.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::PartialRenderer",
+            "object_id": 198780,
+            "value": "#<ActionView::PartialRenderer:0x00007f8a3b04fb10>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 3624,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT 1 AS one FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "22b609603d91e925cdcd46926d5f8a5f09de182365529080745a8b326384363d",
+      "stack": [
+        "app/views/users/show.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 3497,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/950961012",
+          "normalized_path_info": "/users/{id}",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=3Gm8AUQAmE80VroH1ePfCf4ZfAf%2B1rLGi8S534R0jO2BiiKbfBtw%2FJvYvuon%2F71jLmlf1jRUt%2BJfWVHBqwbLWY356AB7mV2mwmImwsTi2D%2Bs4keYUl3i7xVyFPMz%2BVsNEvTzIPty6s%2FU7hOn911Bs0dfcWbOwMDs4d%2BTdNDebmz9dzBsVIxtOEFoM2Udj704ohNMsM9%2FlM44PRy8uvjbyJpeh2Zq4Rv7xL5ykBQ%2BNuMysuHovtPGMmzhRvGEzYOnD7FpkEqFYs3iKbNOMYGrQs7ehL37OwBxEf4mL5TN9gX1JzPR8%2FpGyXNQ9ZbVlXLotEn1mtttDTekY6olobEN16mpFNDZ1jSi1lGxOsGEjYdb21M04yejyfymKHRF%2B2cnTUNJkWnYNA1vOorYnKAtf14ryEQN475eQ2p%2B2HfrzQSjF0XZkyFzKjTIwcGZDZz%2FP4JEqUSdwZTxwvPUQ%2BCunUBqVQ%3D%3D--W0WMVyv3jvMzGAoU--F1wrTT5tscLKte8zK0b9pg%3D%3D; remember_token=h50rcRpMJmuq6CmDCBEe-A; user_id=k7TvWVO07WCJ%2Fl58Fo0mU4WJzVhEhvkG%2Bo%2BgBsFrdWd133%2B1HNhKBHZ0Cn%2FQ8g8eIvPY0DJ9k6MRT1o59Fd95o74minXx9Y%3D--wG7MQodfEZYK6lFS--Xmjd44%2BxpD563Vhoyt1bUw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 3624,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT 1 AS one FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 3535,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users_show_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 198740,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a3b0ac810>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 3628,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT COUNT(*) FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "53547732c12003bd0959dbe8560fd3728c31c479550f578a04019a75c7e3e011",
+      "stack": [
+        "app/views/users/show.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 3497,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/950961012",
+          "normalized_path_info": "/users/{id}",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=3Gm8AUQAmE80VroH1ePfCf4ZfAf%2B1rLGi8S534R0jO2BiiKbfBtw%2FJvYvuon%2F71jLmlf1jRUt%2BJfWVHBqwbLWY356AB7mV2mwmImwsTi2D%2Bs4keYUl3i7xVyFPMz%2BVsNEvTzIPty6s%2FU7hOn911Bs0dfcWbOwMDs4d%2BTdNDebmz9dzBsVIxtOEFoM2Udj704ohNMsM9%2FlM44PRy8uvjbyJpeh2Zq4Rv7xL5ykBQ%2BNuMysuHovtPGMmzhRvGEzYOnD7FpkEqFYs3iKbNOMYGrQs7ehL37OwBxEf4mL5TN9gX1JzPR8%2FpGyXNQ9ZbVlXLotEn1mtttDTekY6olobEN16mpFNDZ1jSi1lGxOsGEjYdb21M04yejyfymKHRF%2B2cnTUNJkWnYNA1vOorYnKAtf14ryEQN475eQ2p%2B2HfrzQSjF0XZkyFzKjTIwcGZDZz%2FP4JEqUSdwZTxwvPUQ%2BCunUBqVQ%3D%3D--W0WMVyv3jvMzGAoU--F1wrTT5tscLKte8zK0b9pg%3D%3D; remember_token=h50rcRpMJmuq6CmDCBEe-A; user_id=k7TvWVO07WCJ%2Fl58Fo0mU4WJzVhEhvkG%2Bo%2BgBsFrdWd133%2B1HNhKBHZ0Cn%2FQ8g8eIvPY0DJ9k6MRT1o59Fd95o74minXx9Y%3D--wG7MQodfEZYK6lFS--Xmjd44%2BxpD563Vhoyt1bUw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 3628,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT COUNT(*) FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 3535,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users_show_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 198740,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a3b0ac810>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 3633,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"microposts\".* FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ? ORDER BY \"microposts\".\"created_at\" DESC LIMIT ? OFFSET ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "1b2f5b978985b2f56396d2ec7a2a05ea6b476444329acb4fad2e53fc9c6b01c7",
+      "stack": [
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/activerecord-6.1.4.6/lib/active_record/relation.rb:248",
+        "app/views/users/show.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 3497,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/950961012",
+          "normalized_path_info": "/users/{id}",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=3Gm8AUQAmE80VroH1ePfCf4ZfAf%2B1rLGi8S534R0jO2BiiKbfBtw%2FJvYvuon%2F71jLmlf1jRUt%2BJfWVHBqwbLWY356AB7mV2mwmImwsTi2D%2Bs4keYUl3i7xVyFPMz%2BVsNEvTzIPty6s%2FU7hOn911Bs0dfcWbOwMDs4d%2BTdNDebmz9dzBsVIxtOEFoM2Udj704ohNMsM9%2FlM44PRy8uvjbyJpeh2Zq4Rv7xL5ykBQ%2BNuMysuHovtPGMmzhRvGEzYOnD7FpkEqFYs3iKbNOMYGrQs7ehL37OwBxEf4mL5TN9gX1JzPR8%2FpGyXNQ9ZbVlXLotEn1mtttDTekY6olobEN16mpFNDZ1jSi1lGxOsGEjYdb21M04yejyfymKHRF%2B2cnTUNJkWnYNA1vOorYnKAtf14ryEQN475eQ2p%2B2HfrzQSjF0XZkyFzKjTIwcGZDZz%2FP4JEqUSdwZTxwvPUQ%2BCunUBqVQ%3D%3D--W0WMVyv3jvMzGAoU--F1wrTT5tscLKte8zK0b9pg%3D%3D; remember_token=h50rcRpMJmuq6CmDCBEe-A; user_id=k7TvWVO07WCJ%2Fl58Fo0mU4WJzVhEhvkG%2Bo%2BgBsFrdWd133%2B1HNhKBHZ0Cn%2FQ8g8eIvPY0DJ9k6MRT1o59Fd95o74minXx9Y%3D--wG7MQodfEZYK6lFS--Xmjd44%2BxpD563Vhoyt1bUw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 3633,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"microposts\".* FROM \"microposts\" WHERE \"microposts\".\"user_id\" = ? ORDER BY \"microposts\".\"created_at\" DESC LIMIT ? OFFSET ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 3535,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users_show_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 198740,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a3b0ac810>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Microposts_interface_micropost_interface.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 3645,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "a8d6ae4e59e52e9b5089265dd66d63ca0410851a2e304ee3c4547843160efa0f",
+      "stack": [
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/activerecord-6.1.4.6/lib/active_record/relation.rb:248",
+        "app/views/users/show.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 3497,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/950961012",
+          "normalized_path_info": "/users/{id}",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=3Gm8AUQAmE80VroH1ePfCf4ZfAf%2B1rLGi8S534R0jO2BiiKbfBtw%2FJvYvuon%2F71jLmlf1jRUt%2BJfWVHBqwbLWY356AB7mV2mwmImwsTi2D%2Bs4keYUl3i7xVyFPMz%2BVsNEvTzIPty6s%2FU7hOn911Bs0dfcWbOwMDs4d%2BTdNDebmz9dzBsVIxtOEFoM2Udj704ohNMsM9%2FlM44PRy8uvjbyJpeh2Zq4Rv7xL5ykBQ%2BNuMysuHovtPGMmzhRvGEzYOnD7FpkEqFYs3iKbNOMYGrQs7ehL37OwBxEf4mL5TN9gX1JzPR8%2FpGyXNQ9ZbVlXLotEn1mtttDTekY6olobEN16mpFNDZ1jSi1lGxOsGEjYdb21M04yejyfymKHRF%2B2cnTUNJkWnYNA1vOorYnKAtf14ryEQN475eQ2p%2B2HfrzQSjF0XZkyFzKjTIwcGZDZz%2FP4JEqUSdwZTxwvPUQ%2BCunUBqVQ%3D%3D--W0WMVyv3jvMzGAoU--F1wrTT5tscLKte8zK0b9pg%3D%3D; remember_token=h50rcRpMJmuq6CmDCBEe-A; user_id=k7TvWVO07WCJ%2Fl58Fo0mU4WJzVhEhvkG%2Bo%2BgBsFrdWd133%2B1HNhKBHZ0Cn%2FQ8g8eIvPY0DJ9k6MRT1o59Fd95o74minXx9Y%3D--wG7MQodfEZYK6lFS--Xmjd44%2BxpD563Vhoyt1bUw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 3645,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"active_storage_attachments\".* FROM \"active_storage_attachments\" WHERE \"active_storage_attachments\".\"record_id\" = ? AND \"active_storage_attachments\".\"record_type\" = ? AND \"active_storage_attachments\".\"name\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 3535,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users_show_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 198740,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a3b0ac810>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Users_index_index_as_admin_including_pagination_and_delete_links.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 208,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT COUNT(*) FROM \"users\"",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "7c64ad93e25fced79167ae5eb8f955fe0e3cdd3c3dc47abb1ca590b004724282",
+      "stack": [
+        "app/views/users/index.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users",
+          "normalized_path_info": "/users",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=95QvHLwE1SUds1UMpKLKoDNWnfkJjlgShl38aiMWhRwSx%2FmWQV0My%2BdOqJWNBiiEVRm90x9ToCekxeoE7gVJ7uVc38wmo%2FIgoA0T%2BNWVbiZWKVt99%2FGTLYBgLDHhRHB9S3AcSo9sS21VysNhuxtptRyrQcxVNg1UlYR%2FJz5IQCO%2BIgFt%2B5kgiZS5Yqpfrb1ZciTxPSdwvyyAP5se11pLcaCpWJUQtgqKJ92MAodGjtsqaCdr6P9tI1zK0vTr6FwCxoVudCR7VdxQrq3ysm8N%2FJm7TGNysHuFLrs%2FqUp%2BFP6Zlq8eVMjIIPaKVpgnNeZlCzJWAE8ltpRwlokppEijtxHJX73R0qjF%2FmXh5Tcmyw%3D%3D--JrLxoZjIUYmgkFYY--kFDun5ZcWrhIfEvvl95xWw%3D%3D; remember_token=3M9JzrNhV5p_eWcPmV6sTg; user_id=oYJdQO6NdbqQEPjP%2F92A5C8rJEZ8TIEsip%2BrWMSnfMbRduka2gLVo5t%2FvBlMHk6qMRlwee4hSMC%2FLzkz8Ub7hT3YW2F6tnI%3D--FVGbplXM%2FO0BSWsQ--Fz%2Bej2932u6exiK8eR0%2Frw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_index_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 208,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT COUNT(*) FROM \"users\"",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 191,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users_index_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/index.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 157280,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a34703f58>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Users_index_index_as_admin_including_pagination_and_delete_links.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 213,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" LIMIT ? OFFSET ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "fdb6b953a3850faef6c6554fa487dd50f32914ba4ab1ca9df7cf48edf7800998",
+      "stack": [
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/activerecord-6.1.4.6/lib/active_record/relation.rb:248",
+        "app/views/users/index.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users",
+          "normalized_path_info": "/users",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=95QvHLwE1SUds1UMpKLKoDNWnfkJjlgShl38aiMWhRwSx%2FmWQV0My%2BdOqJWNBiiEVRm90x9ToCekxeoE7gVJ7uVc38wmo%2FIgoA0T%2BNWVbiZWKVt99%2FGTLYBgLDHhRHB9S3AcSo9sS21VysNhuxtptRyrQcxVNg1UlYR%2FJz5IQCO%2BIgFt%2B5kgiZS5Yqpfrb1ZciTxPSdwvyyAP5se11pLcaCpWJUQtgqKJ92MAodGjtsqaCdr6P9tI1zK0vTr6FwCxoVudCR7VdxQrq3ysm8N%2FJm7TGNysHuFLrs%2FqUp%2BFP6Zlq8eVMjIIPaKVpgnNeZlCzJWAE8ltpRwlokppEijtxHJX73R0qjF%2FmXh5Tcmyw%3D%3D--JrLxoZjIUYmgkFYY--kFDun5ZcWrhIfEvvl95xWw%3D%3D; remember_token=3M9JzrNhV5p_eWcPmV6sTg; user_id=oYJdQO6NdbqQEPjP%2F92A5C8rJEZ8TIEsip%2BrWMSnfMbRduka2gLVo5t%2FvBlMHk6qMRlwee4hSMC%2FLzkz8Ub7hT3YW2F6tnI%3D--FVGbplXM%2FO0BSWsQ--Fz%2Bej2932u6exiK8eR0%2Frw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_index_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 213,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" LIMIT ? OFFSET ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 191,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users_index_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/index.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 157280,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a34703f58>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Users_index_index_as_admin_including_pagination_and_delete_links.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 226,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "3fce8f11a88f88b9ab082e8a795e9033ff8b875041e9ab13f2e5c4ea0812e57f",
+      "stack": [
+        "app/views/users/index.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 149,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users",
+          "normalized_path_info": "/users",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=95QvHLwE1SUds1UMpKLKoDNWnfkJjlgShl38aiMWhRwSx%2FmWQV0My%2BdOqJWNBiiEVRm90x9ToCekxeoE7gVJ7uVc38wmo%2FIgoA0T%2BNWVbiZWKVt99%2FGTLYBgLDHhRHB9S3AcSo9sS21VysNhuxtptRyrQcxVNg1UlYR%2FJz5IQCO%2BIgFt%2B5kgiZS5Yqpfrb1ZciTxPSdwvyyAP5se11pLcaCpWJUQtgqKJ92MAodGjtsqaCdr6P9tI1zK0vTr6FwCxoVudCR7VdxQrq3ysm8N%2FJm7TGNysHuFLrs%2FqUp%2BFP6Zlq8eVMjIIPaKVpgnNeZlCzJWAE8ltpRwlokppEijtxHJX73R0qjF%2FmXh5Tcmyw%3D%3D--JrLxoZjIUYmgkFYY--kFDun5ZcWrhIfEvvl95xWw%3D%3D; remember_token=3M9JzrNhV5p_eWcPmV6sTg; user_id=oYJdQO6NdbqQEPjP%2F92A5C8rJEZ8TIEsip%2BrWMSnfMbRduka2gLVo5t%2FvBlMHk6qMRlwee4hSMC%2FLzkz8Ub7hT3YW2F6tnI%3D--FVGbplXM%2FO0BSWsQ--Fz%2Bej2932u6exiK8eR0%2Frw%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_index_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 226,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" = ? LIMIT ?",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 191,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users_index_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/index.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 157280,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a34703f58>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Users_login_login_with_valid_information_followed_by_logout.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 1018,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "PRAGMA table_info(\"active_storage_attachments\")",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "e9f3c4607caca96eb3f6a5f166da33ebb9075ec189e6840a9a6c99f709fe74c8",
+      "stack": [
+        "app/views/users/show.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 901,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111",
+          "normalized_path_info": "/users/{id}",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=rPifSS2kvTPIe%2BAr%2F2RM3MaQK7Wt1dyN8HnloBtdemePE2PretYxiDiDo48pcFR%2BuGSpag7H5IqqRj40hOjHdjp0qM9TEAIHMlFSQkBpgppX03%2Biuv%2F9iyohx1XLhmj6TROMbPLFGc8GlCddwZSUVa2TWjqQwdYoWfgqQj0jigJ7BT0GXTNtC%2BGzRBOX6SxFNHWA%2BRmHScSSP4i%2FswY3x5zW71BsRzdj4wtApzh59pstcBJDc8KQaVT0IzndJEo07nB1rs2kLv5ZfFXUYrs4WKJZ7pIu%2BQ8tC%2ByArIdMIfV8mbhJmKGZhL7hgROO3J63zoczGvF61uqNx%2FpPowlzw9m%2FsHKHZDIfI5QJvbNeHQ%3D%3D--IKk4UMR4fbYttwPK--6OUd7STXncFDrLb8MH0hcA%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 1018,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "PRAGMA table_info(\"active_storage_attachments\")",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 939,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users_show_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 62800,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a3a8cb060>"
+          }
+        }
+      ]
+    },
+    {
+      "appMapFile": "tmp/appmap/minitest/Users_login_login_with_valid_information_followed_by_logout.appmap.json",
+      "checkId": "query-from-view",
+      "ruleId": "query-from-view",
+      "ruleTitle": "Queries from view",
+      "event": {
+        "id": 1020,
+        "event": "call",
+        "thread_id": 3580,
+        "sql_query": {
+          "sql": "SELECT sql FROM\n  (SELECT * FROM sqlite_master UNION ALL\n   SELECT * FROM sqlite_temp_master)\nWHERE type = 'table' AND name = 'active_storage_attachments'\n",
+          "database_type": "sqlite",
+          "server_version": "3.38.2"
+        }
+      },
+      "hash": "be95afbd6d0a9c213f3f6f7ceae7f23bfeee705271dd9ff20a0118e5f9eea291",
+      "stack": [
+        "app/views/users/show.html.erb",
+        "/Users/danwarner/.rvm/gems/ruby-2.7.5/gems/actionpack-6.1.4.6/lib/action_controller/metal/instrumentation.rb:19"
+      ],
+      "scope": {
+        "id": 901,
+        "event": "call",
+        "thread_id": 3580,
+        "http_server_request": {
+          "request_method": "GET",
+          "path_info": "/users/762146111",
+          "normalized_path_info": "/users/{id}",
+          "headers": {
+            "Host": "www.example.com",
+            "Accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+            "Cookie": "_sample_app_session=rPifSS2kvTPIe%2BAr%2F2RM3MaQK7Wt1dyN8HnloBtdemePE2PretYxiDiDo48pcFR%2BuGSpag7H5IqqRj40hOjHdjp0qM9TEAIHMlFSQkBpgppX03%2Biuv%2F9iyohx1XLhmj6TROMbPLFGc8GlCddwZSUVa2TWjqQwdYoWfgqQj0jigJ7BT0GXTNtC%2BGzRBOX6SxFNHWA%2BRmHScSSP4i%2FswY3x5zW71BsRzdj4wtApzh59pstcBJDc8KQaVT0IzndJEo07nB1rs2kLv5ZfFXUYrs4WKJZ7pIu%2BQ8tC%2ByArIdMIfV8mbhJmKGZhL7hgROO3J63zoczGvF61uqNx%2FpPowlzw9m%2FsHKHZDIfI5QJvbNeHQ%3D%3D--IKk4UMR4fbYttwPK--6OUd7STXncFDrLb8MH0hcA%3D%3D",
+            "Content-Length": "0"
+          }
+        }
+      },
+      "message": "SQL query is invoked from invalid event app_views_users_show_html_erb.render, labeled mvc.template",
+      "relatedEvents": [
+        {
+          "id": 1020,
+          "event": "call",
+          "thread_id": 3580,
+          "sql_query": {
+            "sql": "SELECT sql FROM\n  (SELECT * FROM sqlite_master UNION ALL\n   SELECT * FROM sqlite_temp_master)\nWHERE type = 'table' AND name = 'active_storage_attachments'\n",
+            "database_type": "sqlite",
+            "server_version": "3.38.2"
+          }
+        },
+        {
+          "id": 939,
+          "event": "call",
+          "thread_id": 3580,
+          "defined_class": "app_views_users_show_html_erb",
+          "method_id": "render",
+          "path": "app/views/users/show.html.erb",
+          "static": true,
+          "receiver": {
+            "class": "ActionView::TemplateRenderer",
+            "object_id": 62800,
+            "value": "#<ActionView::TemplateRenderer:0x00007f8a3a8cb060>"
+          }
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "rule": {
+        "id": "authz-before-authn",
+        "title": "Authorization performed before authentication",
+        "labels": [
+          "security.authorization",
+          "security.authentication"
+        ],
+        "scope": "http_server_request",
+        "impactDomain": "Security",
+        "enumerateScope": false,
+        "references": {
+          "CWE-863": "https://cwe.mitre.org/data/definitions/863.html"
+        },
+        "description": "Determines when authorization logic is applied to a user identity that has not been properly verified. Because the the user's identity has not been verified yet, the outcome of the authorization check cannot be trusted. A malicious user might be able to get themselves authorized as a different user than they really are - or they may not be logged in at all.",
+        "url": "https://appland.com/docs/analysis/rules-reference.html#authz-before-authn"
+      },
+      "id": "authz-before-authn",
+      "options": {},
+      "scope": "http_server_request",
+      "includeScope": [],
+      "excludeScope": [],
+      "includeEvent": [],
+      "excludeEvent": []
+    },
+    {
+      "rule": {
+        "id": "circular-dependency",
+        "title": "Circular package dependency",
+        "impactDomain": "Maintainability",
+        "references": {
+          "CWE-1047": "https://cwe.mitre.org/data/definitions/1047.html"
+        },
+        "enumerateScope": false,
+        "description": "Finds cycles in the package dependency graph. Cyclic dependencies make code hard to maintain, because all the code in the cycle is inter-dependent. While it might look like the code in the different packages has separate functions, in essence all the code in the cycle acts like one big package.",
+        "url": "https://appland.com/docs/analysis/rules-reference.html#circular-dependency"
+      },
+      "id": "circular-dependency",
+      "options": {
+        "ignoredPackages": [],
+        "depth": 4
+      },
+      "scope": "root",
+      "includeScope": [],
+      "excludeScope": [],
+      "includeEvent": [],
+      "excludeEvent": []
+    },
+    {
+      "rule": {
+        "id": "deserialization-of-untrusted-data",
+        "title": "Deserialization of untrusted data",
+        "labels": [
+          "deserialize.unsafe",
+          "deserialize.safe",
+          "deserialize.sanitize"
+        ],
+        "impactDomain": "Security",
+        "enumerateScope": false,
+        "references": {
+          "CWE-502": "https://cwe.mitre.org/data/definitions/502.html",
+          "Ruby Security": "https://docs.ruby-lang.org/en/3.0/doc/security_rdoc.html"
+        },
+        "description": "Finds occurrances of deserialization in which the mechanism employed is known to be unsafe, and the data is not known to be trusted.",
+        "url": "https://appland.com/docs/analysis/rules-reference.html#deserialization-of-untrusted-data"
+      },
+      "id": "deserialization-of-untrusted-data",
+      "options": {},
+      "scope": "root",
+      "includeScope": [],
+      "excludeScope": [],
+      "includeEvent": [],
+      "excludeEvent": []
+    },
+    {
+      "rule": {
+        "id": "exec-of-untrusted-command",
+        "title": "Execution of untrusted system command",
+        "labels": [
+          "system.exec",
+          "system.exec.safe",
+          "system.exec.sanitize"
+        ],
+        "impactDomain": "Security",
+        "enumerateScope": false,
+        "references": {
+          "CWE-78": "https://cwe.mitre.org/data/definitions/78.html"
+        },
+        "description": "Find occurrances of system command execution in which the command string is not guaranteed to be safe.",
+        "url": "https://appland.com/docs/analysis/rules-reference.html#exec-of-untrusted-command"
+      },
+      "id": "exec-of-untrusted-command",
+      "options": {},
+      "scope": "root",
+      "includeScope": [],
+      "excludeScope": [],
+      "includeEvent": [],
+      "excludeEvent": []
+    },
+    {
+      "rule": {
+        "id": "http-500",
+        "title": "HTTP 500 status code",
+        "scope": "http_server_request",
+        "enumerateScope": false,
+        "impactDomain": "Stability",
+        "references": {
+          "CWE-392": "https://cwe.mitre.org/data/definitions/392.html"
+        },
+        "description": "Identifies when an HTTP server requset has returned a 500 status code. HTTP 500 status code generally indicate an unanticipated problem in the backend that is not handled in a predictable way. 500 status codes are also hard for client code to handle, because they don't indicate any particular problem or suggest a solution.",
+        "url": "https://appland.com/docs/analysis/rules-reference.html#http-500"
+      },
+      "id": "http-500",
+      "options": {},
+      "scope": "http_server_request",
+      "includeScope": [],
+      "excludeScope": [],
+      "includeEvent": [],
+      "excludeEvent": []
+    },
+    {
+      "rule": {
+        "id": "logout-without-session-reset",
+        "title": "Logout without session reset",
+        "scope": "http_server_request",
+        "labels": [
+          "http.session.clear",
+          "security.logout"
+        ],
+        "impactDomain": "Security",
+        "enumerateScope": false,
+        "references": {
+          "CWE-488": "https://cwe.mitre.org/data/definitions/488.html",
+          "OWASP - Session fixation": "https://owasp.org/www-community/attacks/Session_fixation",
+          "Ruby on Rails - Session fixation countermeasures": "https://guides.rubyonrails.org/security.html#session-fixation-countermeasures"
+        },
+        "description": "Determines when a user has been logged out from the application, but the session hasn't been cleared. When the session isn't cleared after logout, the session is vulnerable to a [session fixation attack](https://owasp.org/www-community/attacks/Session_fixation).",
+        "url": "https://appland.com/docs/analysis/rules-reference.html#logout-without-session-reset"
+      },
+      "id": "logout-without-session-reset",
+      "options": {},
+      "scope": "http_server_request",
+      "includeScope": [],
+      "excludeScope": [],
+      "includeEvent": [],
+      "excludeEvent": []
+    },
+    {
+      "rule": {
+        "id": "missing-content-type",
+        "title": "HTTP server request without a Content-Type header",
+        "scope": "http_server_request",
+        "impactDomain": "Stability",
+        "enumerateScope": false,
+        "description": "Finds HTTP server requests that don't provide a `Content-Type` header in the response.",
+        "url": "https://appland.com/docs/analysis/rules-reference.html#missing-content-type"
+      },
+      "id": "missing-content-type",
+      "options": {},
+      "scope": "http_server_request",
+      "includeScope": [],
+      "excludeScope": [],
+      "includeEvent": [],
+      "excludeEvent": []
+    },
+    {
+      "rule": {
+        "id": "n-plus-one-query",
+        "title": "N plus 1 SQL query",
+        "scope": "command",
+        "impactDomain": "Performance",
+        "enumerateScope": false,
+        "references": {
+          "CWE-1073": "https://cwe.mitre.org/data/definitions/1073.html"
+        },
+        "description": "Finds occurrences of a query being repeated within a loop.",
+        "url": "https://appland.com/docs/analysis/rules-reference.html#n-plus-one-query"
+      },
+      "id": "n-plus-one-query",
+      "options": {
+        "warningLimit": 5,
+        "errorLimit": 10
+      },
+      "scope": "command",
+      "includeScope": [],
+      "excludeScope": [],
+      "includeEvent": [],
+      "excludeEvent": []
+    },
+    {
+      "rule": {
+        "id": "query-from-view",
+        "title": "Queries from view",
+        "impactDomain": "Maintainability",
+        "enumerateScope": true,
+        "references": {
+          "CWE-1057": "https://cwe.mitre.org/data/definitions/1057.html"
+        },
+        "description": "Ensures that SQL queries are not performed directly from the view layer. This helps to make the code more maintainable by encapsulating access to the database.",
+        "url": "https://appland.com/docs/analysis/rules-reference.html#query-from-view"
+      },
+      "id": "query-from-view",
+      "options": {
+        "forbiddenLabel": "mvc.template"
+      },
+      "scope": "root",
+      "includeScope": [],
+      "excludeScope": [],
+      "includeEvent": [],
+      "excludeEvent": []
+    },
+    {
+      "rule": {
+        "id": "secret-in-log",
+        "title": "Secret in log",
+        "labels": [
+          "secret",
+          "log"
+        ],
+        "impactDomain": "Security",
+        "enumerateScope": true,
+        "references": {
+          "CWE-532": "https://cwe.mitre.org/data/definitions/532.html"
+        },
+        "description": "Identifies when a known or assumed secret is written to a log. Logs are often transported into other systems that are treated with lesser security - such as backups. Therefore, secrets written into log files are more likely to be leaked or discovered by cyber-attackers.",
+        "url": "https://appland.com/docs/analysis/rules-reference.html#secret-in-log"
+      },
+      "id": "secret-in-log",
+      "options": {},
+      "scope": "root",
+      "includeScope": [],
+      "excludeScope": [],
+      "includeEvent": [],
+      "excludeEvent": []
+    },
+    {
+      "rule": {
+        "id": "too-many-joins",
+        "title": "Too many joins",
+        "impactDomain": "Performance",
+        "enumerateScope": false,
+        "references": {
+          "CWE-1049": "https://cwe.mitre.org/data/definitions/1049.html"
+        },
+        "description": "Verifies that the number of joins in SQL queries does not exceed a threshold.",
+        "url": "https://appland.com/docs/analysis/rules-reference.html#too-many-joins"
+      },
+      "id": "too-many-joins",
+      "options": {
+        "warningLimit": 5
+      },
+      "scope": "root",
+      "includeScope": [],
+      "excludeScope": [],
+      "includeEvent": [],
+      "excludeEvent": []
+    },
+    {
+      "rule": {
+        "id": "too-many-updates",
+        "title": "Too many SQL and RPC updates performed in one command",
+        "scope": "command",
+        "enumerateScope": false,
+        "impactDomain": "Maintainability",
+        "references": {
+          "CWE-1048": "https://cwe.mitre.org/data/definitions/1048.html"
+        },
+        "description": "Verifies that the number of SQL and RPC updates performed by a command does not exceed a threshold.",
+        "url": "https://appland.com/docs/analysis/rules-reference.html#too-many-updates"
+      },
+      "id": "too-many-updates",
+      "options": {
+        "warningLimit": 20
+      },
+      "scope": "command",
+      "includeScope": [],
+      "excludeScope": [],
+      "includeEvent": [],
+      "excludeEvent": []
+    },
+    {
+      "rule": {
+        "id": "update-in-get-request",
+        "title": "Data update performed in GET or HEAD request",
+        "scope": "http_server_request",
+        "labels": [
+          "audit"
+        ],
+        "impactDomain": "Maintainability",
+        "description": "Finds SQL updates that are performed in an HTTP server `GET` request.",
+        "url": "https://appland.com/docs/analysis/rules-reference.html#update-in-get-request"
+      },
+      "id": "update-in-get-request",
+      "options": {
+        "_queryInclude": [
+          {},
+          {}
+        ],
+        "_queryExclude": []
+      },
+      "scope": "http_server_request",
+      "includeScope": [],
+      "excludeScope": [],
+      "includeEvent": [],
+      "excludeEvent": []
+    }
+  ],
+  "summary": {
+    "numAppMaps": 66,
+    "numChecks": 858,
+    "rules": [
+      "authz-before-authn",
+      "circular-dependency",
+      "deserialization-of-untrusted-data",
+      "exec-of-untrusted-command",
+      "http-500",
+      "logout-without-session-reset",
+      "missing-content-type",
+      "n-plus-one-query",
+      "query-from-view",
+      "secret-in-log",
+      "too-many-joins",
+      "too-many-updates",
+      "update-in-get-request"
+    ],
+    "ruleLabels": [
+      "audit",
+      "deserialize.safe",
+      "deserialize.sanitize",
+      "deserialize.unsafe",
+      "http.session.clear",
+      "log",
+      "secret",
+      "security.authentication",
+      "security.authorization",
+      "security.logout",
+      "system.exec",
+      "system.exec.safe",
+      "system.exec.sanitize"
+    ],
+    "numFindings": 37,
+    "appMapMetadata": {
+      "labels": [],
+      "apps": [
+        "sample_app_6th_ed"
+      ],
+      "clients": [
+        {
+          "name": "appmap",
+          "url": "https://github.com/applandinc/appmap-ruby",
+          "version": "0.78.0"
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "rails",
+          "version": "6.1.4.6"
+        },
+        {
+          "name": "minitest",
+          "version": "5.11.3"
+        }
+      ],
+      "git": [
+        {
+          "repository": "git@github.com:Daniel-Warner-X/dwitter.git",
+          "branch": "main",
+          "commit": "13a4d3e1dce55404b16b0997142b42bbb4312b8f",
+          "status": [
+            "M Gemfile",
+            "M Gemfile.lock",
+            "M package.json",
+            "M yarn.lock",
+            "?? appmap.yml"
+          ],
+          "git_last_annotated_tag": null,
+          "git_last_tag": null,
+          "git_commits_since_last_annotated_tag": null,
+          "git_commits_since_last_tag": null
+        }
+      ],
+      "languages": [
+        {
+          "name": "ruby",
+          "engine": "ruby",
+          "version": "2.7.5"
+        }
+      ],
+      "recorders": [
+        {
+          "name": "minitest"
+        }
+      ],
+      "testStatuses": [],
+      "exceptions": []
+    }
+  }
+}

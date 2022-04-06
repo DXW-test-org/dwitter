@@ -1,0 +1,6 @@
+---
+name: TestOrg-1/Rails-Sample-App-6th-Ed-Scanner-Integration
+packages:
+- path: app/controllers
+- path: app/models
+- path: lib
